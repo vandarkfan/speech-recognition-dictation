@@ -1,0 +1,2906 @@
+[2019/11/18 21:33:13 540] transport  1494 a_complete_httpmessage  200  
+[2019/11/18 21:33:13 540] transport  1604 is_update  false  
+[2019/11/18 21:33:13 540] lgi        105  [trans] [id = lgi_] readable  
+[2019/11/18 21:33:13 542] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.35  
+[2019/11/18 21:33:13 542] transport  972  iplist not avail  
+[2019/11/18 21:33:13 542] transport  1332 [soc] disconnect   
+[2019/11/18 21:33:13 542] transport  991  transport clean  
+[2019/11/18 21:33:13 542] lgi        136  lgi resp!  
+[2019/11/18 21:33:13 542] lgi        143  lgi ok!  
+[2019/11/18 21:33:13 542] lgi        151  unkown  d13853223522  
+[2019/11/18 21:33:13 545] lgi        72   loginid =   1  d13853223522  
+[2019/11/18 21:33:13 545] lgi        75   notify_lgi_result, ret = 0  
+[2019/11/18 21:33:28 546] lgi        100  lgi_delaydie_timeout  
+============================================================
+Time  2019/11/18 21:36:39 907 
+============================================================
+[2019/11/18 21:36:39 907] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:36:39 910] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(6af5048) 
+[2019/11/18 21:36:39 910] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:36:39 911] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:36:39 911] lgi        347  work_dir  .  
+[2019/11/18 21:36:39 911] lgi        403  token:  nil  
+[2019/11/18 21:36:39 911] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:36:39 911] lgi        519  ns_enable=  1  
+[2019/11/18 21:36:39 911] lgi        531  prot_ver=1  
+[2019/11/18 21:36:39 911] lgi        542  prot_type=tcp  
+[2019/11/18 21:36:39 911] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:36:40 164] lgi        598  LGI_MSG_START, caller =  cloud_cisr1P1HHBHj7KgYW-58eaaBqkBsG0--PVh  
+[2019/11/18 21:36:40 164] lgi        604  lgistat =   0  
+[2019/11/18 21:36:40 165] lgi        630  lgi_auth_id =  nil  
+[2019/11/18 21:36:40 165] config     91   select default  
+[2019/11/18 21:36:40 165] config     113  use general cloud  
+[2019/11/18 21:36:40 165] transport  645  paramkvsport is   0  
+[2019/11/18 21:36:40 165] transport  657  ns_enable=  1  
+[2019/11/18 21:36:40 165] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2019/11/18 21:36:40 165] transport  665  net.nettype=  unknown  
+[2019/11/18 21:36:40 165] transport  675  url.full=  nil  
+[2019/11/18 21:36:40 165] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2019/11/18 21:36:40 167] transport  907  net type:  unknown  
+[2019/11/18 21:36:40 167] transport  908  net operator:  def  
+[2019/11/18 21:36:40 167] transport  909  use proxy:  false  
+[2019/11/18 21:36:40 167] lgi        277  [session] send lgi request  
+[2019/11/18 21:36:40 167] transport  1105 session.domain=  open.xf-yun.com  
+[2019/11/18 21:36:40 167] transport  1106 url.host=  open.xf-yun.com  
+[2019/11/18 21:36:40 167] transport  1083 NAMESERVER START  
+[2019/11/18 21:36:40 167] transport  1086 name =   ath  
+[2019/11/18 21:36:40 167] ns         634  ntt=  unknown  
+[2019/11/18 21:36:40 167] transport  1089 trans,ns_inprog =  0  
+[2019/11/18 21:36:40 167] ns         582  name server start  
+[2019/11/18 21:36:40 167] ns         588  ns_sub =   ath  
+[2019/11/18 21:36:40 167] ns         596  ns_host =   open.xf-yun.com  
+[2019/11/18 21:36:40 167] ns         475  ns_host=  open.xf-yun.com  
+[2019/11/18 21:36:40 167] ns         555  net_type =  standard  
+[2019/11/18 21:36:40 167] ns         556  cmwapascmnet =  
+[2019/11/18 21:36:40 167] ns         557  uniwapasuninet =  
+[2019/11/18 21:36:40 167] ns         558  ctwapasctnet =  
+[2019/11/18 21:36:40 167] ns         576  host=  hdns.xf-yun.com  
+[2019/11/18 21:36:40 167] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2019/11/18 21:36:40 168] lgi        244  lver:  nil  
+[2019/11/18 21:36:40 168] lgi        249  cfg_ver:  nil  
+[2019/11/18 21:36:40 168] transport  1860 transport_obj.send | in  
+[2019/11/18 21:36:40 168] transport  1866 self.msg_flag_q  table(6a3fbe0) 
+[2019/11/18 21:36:40 168] transport  1867 self.msg_q  table(6a3faf0) 
+[2019/11/18 21:36:40 168] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:36:40 168] transport  1800 self.soc  nil  
+[2019/11/18 21:36:40 168] transport  1801 self.connected  false  
+[2019/11/18 21:36:40 170] transport  1802 self.latesterr  0  
+[2019/11/18 21:36:40 170] transport  1873 transport_obj.send | out  
+[2019/11/18 21:36:40 203] network    245  dns resp  0  ns1  
+[2019/11/18 21:36:40 203] ns         422  ns dns ok  42.62.116.34  
+[2019/11/18 21:36:40 203] ns         202  iplist not avail  
+[2019/11/18 21:36:40 203] ns         429  is_voicecloud_ip=  0  
+[2019/11/18 21:36:40 203] ns         436  ip_is_expected=  true  
+[2019/11/18 21:36:40 203] ns         444  ip_is_expected=  true  
+[2019/11/18 21:36:40 203] network    445  gethttpresp2  42.62.116.34  80  ns2  
+[2019/11/18 21:36:40 203] network    465  prot_type  tcp  
+[2019/11/18 21:36:40 246] transport  194  [dns] [1] response 42.62.116.18  
+[2019/11/18 21:36:40 246] transport  202  42  62  116  18  
+[2019/11/18 21:36:40 246] transport  204  ipv =  v4  
+[2019/11/18 21:36:40 246] transport  208  dns ip is v4  
+[2019/11/18 21:36:40 246] transport  130  iplist not avail  
+[2019/11/18 21:36:40 247] transport  247  no iplist now  
+[2019/11/18 21:36:40 247] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2019/11/18 21:36:40 250] transport  291  dns cb start conn  
+[2019/11/18 21:36:40 250] transport  1304 [soc] connect   42.62.116.18  1028  
+[2019/11/18 21:36:40 250] transport  1316 mspsoc.open,prot_type=  tcp  
+[2019/11/18 21:36:40 280] network    350  connected  ns2  
+[2019/11/18 21:36:40 285] network    353  send ok  268  ns2  
+[2019/11/18 21:36:40 315] transport  473  [soc] [1] connected  
+[2019/11/18 21:36:40 315] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:36:40 315] transport  1800 self.soc  udata(357caa0) 
+[2019/11/18 21:36:40 315] transport  1801 self.connected  true  
+[2019/11/18 21:36:40 315] transport  1802 self.latesterr  0  
+[2019/11/18 21:36:40 315] transport  1819 transport:try2send,#msg_q=  1  
+[2019/11/18 21:36:40 315] transport  1359 build http request.  
+[2019/11/18 21:36:40 315] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: auth
+X-Par: ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E0%2E42%2E1226&key=08jJT/Z^iRX0g=
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 323
+
+----
+Content-Length:56
+Content-Type:text/appinfo
+Content-Encoding:gzip,encrypt/0.2
+
+ot‹u+N`òÅÄyy|~É}  
+[2019/11/18 21:36:40 318] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/18 21:36:40 319] transport  482  [soc] [1] send ok  508  
+[2019/11/18 21:36:40 319] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:36:40 319] transport  1800 self.soc  udata(357caa0) 
+[2019/11/18 21:36:40 319] transport  1801 self.connected  true  
+[2019/11/18 21:36:40 319] transport  1802 self.latesterr  0  
+[2019/11/18 21:36:40 319] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/18 21:36:40 322] network    362  readable  ns2  
+[2019/11/18 21:36:40 323] network    366  HTTP/1.1 200 OK
+Date: Mon, 18 Nov 2019 13:36:40 GMT
+Content-Type: application/json
+Content-Length: 308
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.34","port":80,"idc":"dx"},{"ip":"42.62.116.35","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.35","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2019/11/18 21:36:40 325] ns         253  name server http resp  0  
+[2019/11/18 21:36:40 325] ns         266  ns response OK for this time!  
+[2019/11/18 21:36:40 325] ns         277  from_server=  iflytek/hdns  
+[2019/11/18 21:36:40 328] ns         360  compel :  0  
+[2019/11/18 21:36:40 328] transport  1063 ns_ip =   42.62.116.34  
+[2019/11/18 21:36:40 328] transport  1064 ip_type =  assigned_athopen.xf-yun.com_host  
+[2019/11/18 21:36:40 328] ns         670  no data in ns_q  
+[2019/11/18 21:36:40 328] ns         671  conti_ns,ns_inprog =   1  
+[2019/11/18 21:36:40 374] transport  494  [soc] [1] readable  
+[2019/11/18 21:36:40 375] transport  1767 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2019/11/18 21:36:40 391
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E42%2E1226&uid=d13853223522&key=0bU8o1wU5msnHyD7jd11t1xb5fRBEYwstGgWjlHoWunE2^^GHVr44O7HI9DrGkC9Lc^jyDpJPROzIrufqCHNZO1Cu5^oIc1k7U
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2019/11/18 21:36:40 415
+
+0  
+[2019/11/18 21:36:40 375] transport  1494 a_complete_httpmessage  200  
+[2019/11/18 21:36:40 375] transport  1604 is_update  false  
+[2019/11/18 21:36:40 375] lgi        105  [trans] [id = lgi_] readable  
+[2019/11/18 21:36:40 377] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2019/11/18 21:36:40 377] transport  972  iplist not avail  
+[2019/11/18 21:36:40 377] transport  1332 [soc] disconnect   
+[2019/11/18 21:36:40 377] transport  991  transport clean  
+[2019/11/18 21:36:40 378] lgi        136  lgi resp!  
+[2019/11/18 21:36:40 378] lgi        143  lgi ok!  
+[2019/11/18 21:36:40 378] lgi        151  unkown  d13853223522  
+[2019/11/18 21:36:40 381] lgi        72   loginid =   1  d13853223522  
+[2019/11/18 21:36:40 381] lgi        75   notify_lgi_result, ret = 0  
+[2019/11/18 21:36:43 457] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:36:52 056 
+============================================================
+[2019/11/18 21:36:52 058] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:36:52 059] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(6a8bd18) 
+[2019/11/18 21:36:52 059] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:36:52 059] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:36:52 059] lgi        347  work_dir  .  
+[2019/11/18 21:36:52 059] lgi        403  token:  nil  
+[2019/11/18 21:36:52 059] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:36:52 061] lgi        519  ns_enable=  1  
+[2019/11/18 21:36:52 061] lgi        531  prot_ver=1  
+[2019/11/18 21:36:52 061] lgi        542  prot_type=tcp  
+[2019/11/18 21:36:52 062] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:36:52 263] lgi        598  LGI_MSG_START, caller =  cloud_cisr1P1HHBHj7Kg7W-n7saaHSo04DPhzBOS  
+[2019/11/18 21:36:52 263] lgi        604  lgistat =   0  
+[2019/11/18 21:36:52 263] lgi        630  lgi_auth_id =  nil  
+[2019/11/18 21:36:52 263] config     91   select default  
+[2019/11/18 21:36:52 263] config     113  use general cloud  
+[2019/11/18 21:36:52 263] transport  645  paramkvsport is   0  
+[2019/11/18 21:36:52 263] transport  657  ns_enable=  1  
+[2019/11/18 21:36:52 263] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2019/11/18 21:36:52 263] transport  665  net.nettype=  unknown  
+[2019/11/18 21:36:52 263] transport  675  url.full=  nil  
+[2019/11/18 21:36:52 263] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2019/11/18 21:36:52 263] transport  907  net type:  unknown  
+[2019/11/18 21:36:52 263] transport  908  net operator:  def  
+[2019/11/18 21:36:52 263] transport  909  use proxy:  false  
+[2019/11/18 21:36:52 263] lgi        277  [session] send lgi request  
+[2019/11/18 21:36:52 263] transport  1105 session.domain=  open.xf-yun.com  
+[2019/11/18 21:36:52 263] transport  1106 url.host=  open.xf-yun.com  
+[2019/11/18 21:36:52 263] transport  1083 NAMESERVER START  
+[2019/11/18 21:36:52 265] transport  1086 name =   ath  
+[2019/11/18 21:36:52 265] ns         634  ntt=  unknown  
+[2019/11/18 21:36:52 265] transport  1089 trans,ns_inprog =  0  
+[2019/11/18 21:36:52 265] ns         582  name server start  
+[2019/11/18 21:36:52 265] ns         588  ns_sub =   ath  
+[2019/11/18 21:36:52 265] ns         596  ns_host =   open.xf-yun.com  
+[2019/11/18 21:36:52 265] ns         475  ns_host=  open.xf-yun.com  
+[2019/11/18 21:36:52 265] ns         555  net_type =  standard  
+[2019/11/18 21:36:52 265] ns         556  cmwapascmnet =  
+[2019/11/18 21:36:52 266] ns         557  uniwapasuninet =  
+[2019/11/18 21:36:52 266] ns         558  ctwapasctnet =  
+[2019/11/18 21:36:52 266] ns         576  host=  hdns.xf-yun.com  
+[2019/11/18 21:36:52 266] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2019/11/18 21:36:52 266] lgi        244  lver:  nil  
+[2019/11/18 21:36:52 266] lgi        249  cfg_ver:  nil  
+[2019/11/18 21:36:52 266] transport  1860 transport_obj.send | in  
+[2019/11/18 21:36:52 266] transport  1866 self.msg_flag_q  table(c3fd368) 
+[2019/11/18 21:36:52 266] transport  1867 self.msg_q  table(c3fd128) 
+[2019/11/18 21:36:52 266] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:36:52 266] transport  1800 self.soc  nil  
+[2019/11/18 21:36:52 266] transport  1801 self.connected  false  
+[2019/11/18 21:36:52 266] transport  1802 self.latesterr  0  
+[2019/11/18 21:36:52 266] transport  1873 transport_obj.send | out  
+[2019/11/18 21:36:52 296] network    245  dns resp  0  ns1  
+[2019/11/18 21:36:52 296] ns         422  ns dns ok  42.62.116.34  
+[2019/11/18 21:36:52 296] ns         202  iplist not avail  
+[2019/11/18 21:36:52 299] ns         429  is_voicecloud_ip=  0  
+[2019/11/18 21:36:52 299] ns         436  ip_is_expected=  true  
+[2019/11/18 21:36:52 299] ns         444  ip_is_expected=  true  
+[2019/11/18 21:36:52 299] network    445  gethttpresp2  42.62.116.34  80  ns2  
+[2019/11/18 21:36:52 299] network    465  prot_type  tcp  
+[2019/11/18 21:36:52 305] transport  194  [dns] [1] response 42.62.116.18  
+[2019/11/18 21:36:52 305] transport  202  42  62  116  18  
+[2019/11/18 21:36:52 305] transport  204  ipv =  v4  
+[2019/11/18 21:36:52 305] transport  208  dns ip is v4  
+[2019/11/18 21:36:52 305] transport  130  iplist not avail  
+[2019/11/18 21:36:52 305] transport  247  no iplist now  
+[2019/11/18 21:36:52 305] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2019/11/18 21:36:52 308] transport  291  dns cb start conn  
+[2019/11/18 21:36:52 308] transport  1304 [soc] connect   42.62.116.18  1028  
+[2019/11/18 21:36:52 309] transport  1316 mspsoc.open,prot_type=  tcp  
+[2019/11/18 21:36:52 339] network    350  connected  ns2  
+[2019/11/18 21:36:52 342] network    353  send ok  268  ns2  
+[2019/11/18 21:36:52 365] transport  473  [soc] [1] connected  
+[2019/11/18 21:36:52 365] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:36:52 365] transport  1800 self.soc  udata(c2f0bd8) 
+[2019/11/18 21:36:52 365] transport  1801 self.connected  true  
+[2019/11/18 21:36:52 365] transport  1802 self.latesterr  0  
+[2019/11/18 21:36:52 365] transport  1819 transport:try2send,#msg_q=  1  
+[2019/11/18 21:36:52 367] transport  1359 build http request.  
+[2019/11/18 21:36:52 367] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: auth
+X-Par: ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E0%2E42%2E1226&key=08jJT/Z^iRX0g=
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 323
+
+----
+Content-Length:56
+Content-Type:text/appinfo
+Content-Encoding:gzip,encrypt/0.2
+
+ot‹u+N`òÅÄyy|~É}  
+[2019/11/18 21:36:52 371] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/18 21:36:52 371] transport  482  [soc] [1] send ok  508  
+[2019/11/18 21:36:52 371] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:36:52 371] transport  1800 self.soc  udata(c2f0bd8) 
+[2019/11/18 21:36:52 371] transport  1801 self.connected  true  
+[2019/11/18 21:36:52 371] transport  1802 self.latesterr  0  
+[2019/11/18 21:36:52 371] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/18 21:36:52 385] network    362  readable  ns2  
+[2019/11/18 21:36:52 387] network    366  HTTP/1.1 200 OK
+Date: Mon, 18 Nov 2019 13:36:52 GMT
+Content-Type: application/json
+Content-Length: 307
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.42.10","port":1028,"idc":"dx"},{"ip":"42.62.42.18","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.42.18","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2019/11/18 21:36:52 388] ns         253  name server http resp  0  
+[2019/11/18 21:36:52 388] ns         266  ns response OK for this time!  
+[2019/11/18 21:36:52 388] ns         277  from_server=  iflytek/hdns  
+[2019/11/18 21:36:52 388] ns         360  compel :  0  
+[2019/11/18 21:36:52 390] transport  1063 ns_ip =   42.62.42.10  
+[2019/11/18 21:36:52 390] transport  1064 ip_type =  assigned_athopen.xf-yun.com_host  
+[2019/11/18 21:36:52 390] ns         670  no data in ns_q  
+[2019/11/18 21:36:52 390] ns         671  conti_ns,ns_inprog =   1  
+[2019/11/18 21:36:52 413] transport  494  [soc] [1] readable  
+[2019/11/18 21:36:52 413] transport  1767 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2019/11/18 21:36:52 443
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E42%2E1226&uid=d13853223522&key=0b2bAdSWQJE8KPqqsZA2GdICWQj9Q^xy48JgNuY4djda^^^GHVr44O7HI9DrGkC9Lc^jyDpJPROzIrufqCHNZO1Cu5^oIc1k7U
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2019/11/18 21:36:52 457
+
+0  
+[2019/11/18 21:36:52 413] transport  1494 a_complete_httpmessage  200  
+[2019/11/18 21:36:52 414] transport  1604 is_update  false  
+[2019/11/18 21:36:52 414] lgi        105  [trans] [id = lgi_] readable  
+[2019/11/18 21:36:52 414] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2019/11/18 21:36:52 414] transport  972  iplist not avail  
+[2019/11/18 21:36:52 414] transport  1332 [soc] disconnect   
+[2019/11/18 21:36:52 414] transport  991  transport clean  
+[2019/11/18 21:36:52 414] lgi        136  lgi resp!  
+[2019/11/18 21:36:52 414] lgi        143  lgi ok!  
+[2019/11/18 21:36:52 414] lgi        151  unkown  d13853223522  
+[2019/11/18 21:36:52 417] lgi        72   loginid =   1  d13853223522  
+[2019/11/18 21:36:52 417] lgi        75   notify_lgi_result, ret = 0  
+[2019/11/18 21:37:07 418] lgi        100  lgi_delaydie_timeout  
+============================================================
+Time  2019/11/18 21:40:21 716 
+============================================================
+[2019/11/18 21:40:21 717] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:40:21 719] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(c35a900) 
+[2019/11/18 21:40:21 719] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:40:21 719] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:40:21 720] lgi        347  work_dir  .  
+[2019/11/18 21:40:21 720] lgi        403  token:  nil  
+[2019/11/18 21:40:21 720] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:40:21 720] lgi        519  ns_enable=  1  
+[2019/11/18 21:40:21 720] lgi        531  prot_ver=1  
+[2019/11/18 21:40:21 720] lgi        542  prot_type=tcp  
+[2019/11/18 21:40:21 720] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:40:21 913] lgi        598  LGI_MSG_START, caller =  cloud_cisr1P1HHBHj7Kh1WbPm5aaBYZWy2dma5CS  
+[2019/11/18 21:40:21 913] lgi        604  lgistat =   0  
+[2019/11/18 21:40:21 913] lgi        630  lgi_auth_id =  nil  
+[2019/11/18 21:40:21 914] config     91   select default  
+[2019/11/18 21:40:21 914] config     113  use general cloud  
+[2019/11/18 21:40:21 914] transport  645  paramkvsport is   0  
+[2019/11/18 21:40:21 914] transport  657  ns_enable=  1  
+[2019/11/18 21:40:21 914] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2019/11/18 21:40:21 914] transport  665  net.nettype=  unknown  
+[2019/11/18 21:40:21 914] transport  675  url.full=  nil  
+[2019/11/18 21:40:21 914] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2019/11/18 21:40:21 914] transport  907  net type:  unknown  
+[2019/11/18 21:40:21 914] transport  908  net operator:  def  
+[2019/11/18 21:40:21 914] transport  909  use proxy:  false  
+[2019/11/18 21:40:21 914] lgi        277  [session] send lgi request  
+[2019/11/18 21:40:21 914] transport  1105 session.domain=  open.xf-yun.com  
+[2019/11/18 21:40:21 914] transport  1106 url.host=  open.xf-yun.com  
+[2019/11/18 21:40:21 914] transport  1083 NAMESERVER START  
+[2019/11/18 21:40:21 914] transport  1086 name =   ath  
+[2019/11/18 21:40:21 914] ns         634  ntt=  unknown  
+[2019/11/18 21:40:21 914] transport  1089 trans,ns_inprog =  0  
+[2019/11/18 21:40:21 914] ns         582  name server start  
+[2019/11/18 21:40:21 914] ns         588  ns_sub =   ath  
+[2019/11/18 21:40:21 914] ns         596  ns_host =   open.xf-yun.com  
+[2019/11/18 21:40:21 914] ns         475  ns_host=  open.xf-yun.com  
+[2019/11/18 21:40:21 915] ns         555  net_type =  standard  
+[2019/11/18 21:40:21 915] ns         556  cmwapascmnet =  
+[2019/11/18 21:40:21 915] ns         557  uniwapasuninet =  
+[2019/11/18 21:40:21 915] ns         558  ctwapasctnet =  
+[2019/11/18 21:40:21 915] ns         576  host=  hdns.xf-yun.com  
+[2019/11/18 21:40:21 915] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2019/11/18 21:40:21 915] lgi        244  lver:  nil  
+[2019/11/18 21:40:21 915] lgi        249  cfg_ver:  nil  
+[2019/11/18 21:40:21 915] transport  1860 transport_obj.send | in  
+[2019/11/18 21:40:21 915] transport  1866 self.msg_flag_q  table(6a58860) 
+[2019/11/18 21:40:21 915] transport  1867 self.msg_q  table(6a58830) 
+[2019/11/18 21:40:21 917] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:40:21 917] transport  1800 self.soc  nil  
+[2019/11/18 21:40:21 917] transport  1801 self.connected  false  
+[2019/11/18 21:40:21 917] transport  1802 self.latesterr  0  
+[2019/11/18 21:40:21 917] transport  1873 transport_obj.send | out  
+[2019/11/18 21:40:21 951] network    245  dns resp  0  ns1  
+[2019/11/18 21:40:21 951] ns         422  ns dns ok  42.62.116.18  
+[2019/11/18 21:40:21 951] ns         202  iplist not avail  
+[2019/11/18 21:40:21 953] ns         429  is_voicecloud_ip=  0  
+[2019/11/18 21:40:21 953] ns         436  ip_is_expected=  true  
+[2019/11/18 21:40:21 953] ns         444  ip_is_expected=  true  
+[2019/11/18 21:40:21 953] network    445  gethttpresp2  42.62.116.18  80  ns2  
+[2019/11/18 21:40:21 953] network    465  prot_type  tcp  
+[2019/11/18 21:40:21 970] transport  194  [dns] [1] response 42.62.116.35  
+[2019/11/18 21:40:21 970] transport  202  42  62  116  35  
+[2019/11/18 21:40:21 970] transport  204  ipv =  v4  
+[2019/11/18 21:40:21 970] transport  208  dns ip is v4  
+[2019/11/18 21:40:21 970] transport  130  iplist not avail  
+[2019/11/18 21:40:21 970] transport  247  no iplist now  
+[2019/11/18 21:40:21 970] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.35  
+[2019/11/18 21:40:21 973] transport  291  dns cb start conn  
+[2019/11/18 21:40:21 973] transport  1304 [soc] connect   42.62.116.35  1028  
+[2019/11/18 21:40:21 973] transport  1316 mspsoc.open,prot_type=  tcp  
+[2019/11/18 21:40:21 990] network    350  connected  ns2  
+[2019/11/18 21:40:21 992] network    353  send ok  268  ns2  
+[2019/11/18 21:40:22 029] transport  473  [soc] [1] connected  
+[2019/11/18 21:40:22 029] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:40:22 029] transport  1800 self.soc  udata(6a89bd0) 
+[2019/11/18 21:40:22 029] transport  1801 self.connected  true  
+[2019/11/18 21:40:22 029] transport  1802 self.latesterr  0  
+[2019/11/18 21:40:22 029] transport  1819 transport:try2send,#msg_q=  1  
+[2019/11/18 21:40:22 029] transport  1359 build http request.  
+[2019/11/18 21:40:22 029] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: auth
+X-Par: ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E0%2E42%2E1226&key=08jJT/Z^iRX0g=
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 323
+
+----
+Content-Length:56
+Content-Type:text/appinfo
+Content-Encoding:gzip,encrypt/0.2
+
+ot‹u+N`òÅÄyy|~É}  
+[2019/11/18 21:40:22 032] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/18 21:40:22 032] transport  482  [soc] [1] send ok  508  
+[2019/11/18 21:40:22 032] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:40:22 032] transport  1800 self.soc  udata(6a89bd0) 
+[2019/11/18 21:40:22 032] transport  1801 self.connected  true  
+[2019/11/18 21:40:22 032] transport  1802 self.latesterr  0  
+[2019/11/18 21:40:22 033] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/18 21:40:22 036] network    362  readable  ns2  
+[2019/11/18 21:40:22 036] network    366  HTTP/1.1 200 OK
+Date: Mon, 18 Nov 2019 13:40:22 GMT
+Content-Type: application/json
+Content-Length: 308
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.18","port":80,"idc":"dx"},{"ip":"42.62.116.34","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.34","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2019/11/18 21:40:22 049] ns         253  name server http resp  0  
+[2019/11/18 21:40:22 049] ns         266  ns response OK for this time!  
+[2019/11/18 21:40:22 049] ns         277  from_server=  iflytek/hdns  
+[2019/11/18 21:40:22 052] ns         360  compel :  0  
+[2019/11/18 21:40:22 052] transport  1063 ns_ip =   42.62.116.18  
+[2019/11/18 21:40:22 052] transport  1064 ip_type =  assigned_athopen.xf-yun.com_host  
+[2019/11/18 21:40:22 052] ns         670  no data in ns_q  
+[2019/11/18 21:40:22 052] ns         671  conti_ns,ns_inprog =   1  
+[2019/11/18 21:40:22 111] transport  494  [soc] [1] readable  
+[2019/11/18 21:40:22 111] transport  1767 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2019/11/18 21:40:22 123
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E42%2E1226&uid=d13853223522&key=0bc0/nYhJeseWBNSqycxdOooO99WMS1BFlL7FQMP/PsBe^^GHVr44O7HI9DrGkC9Lc^jyDpJPROzIrufqCHNZO1Cu5^oIc1k7U
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2019/11/18 21:40:22 143
+
+0  
+[2019/11/18 21:40:22 111] transport  1494 a_complete_httpmessage  200  
+[2019/11/18 21:40:22 111] transport  1604 is_update  false  
+[2019/11/18 21:40:22 112] lgi        105  [trans] [id = lgi_] readable  
+[2019/11/18 21:40:22 114] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.35  
+[2019/11/18 21:40:22 114] transport  981  cached ip is confirmed  
+[2019/11/18 21:40:22 114] transport  1332 [soc] disconnect   
+[2019/11/18 21:40:22 114] transport  991  transport clean  
+[2019/11/18 21:40:22 115] lgi        136  lgi resp!  
+[2019/11/18 21:40:22 115] lgi        143  lgi ok!  
+[2019/11/18 21:40:22 115] lgi        151  unkown  d13853223522  
+[2019/11/18 21:40:22 118] lgi        72   loginid =   1  d13853223522  
+[2019/11/18 21:40:22 118] lgi        75   notify_lgi_result, ret = 0  
+[2019/11/18 21:40:23 858] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:46:32 467 
+============================================================
+[2019/11/18 21:46:32 469] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:46:32 469] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(6a9dae0) 
+[2019/11/18 21:46:32 470] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:46:32 470] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:46:32 470] lgi        347  work_dir  .  
+[2019/11/18 21:46:32 470] lgi        403  token:  nil  
+[2019/11/18 21:46:32 470] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:46:32 470] lgi        519  ns_enable=  1  
+[2019/11/18 21:46:32 470] lgi        531  prot_ver=1  
+[2019/11/18 21:46:32 470] lgi        542  prot_type=tcp  
+[2019/11/18 21:46:32 471] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:46:33 529] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:46:39 690 
+============================================================
+[2019/11/18 21:46:39 691] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:46:39 693] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(c3d63c8) 
+[2019/11/18 21:46:39 693] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:46:39 693] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:46:39 694] lgi        347  work_dir  .  
+[2019/11/18 21:46:39 694] lgi        403  token:  nil  
+[2019/11/18 21:46:39 694] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:46:39 694] lgi        519  ns_enable=  1  
+[2019/11/18 21:46:39 694] lgi        531  prot_ver=1  
+[2019/11/18 21:46:39 694] lgi        542  prot_type=tcp  
+[2019/11/18 21:46:39 694] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:46:39 717] lgi        598  LGI_MSG_START, caller =  cloud_cisr1P1HHBHj72a6Wy45oaamFICv0drPlbL  
+[2019/11/18 21:46:39 717] lgi        604  lgistat =   0  
+[2019/11/18 21:46:39 717] lgi        630  lgi_auth_id =  nil  
+[2019/11/18 21:46:39 717] config     91   select default  
+[2019/11/18 21:46:39 717] config     113  use general cloud  
+[2019/11/18 21:46:39 717] transport  645  paramkvsport is   0  
+[2019/11/18 21:46:39 719] transport  657  ns_enable=  1  
+[2019/11/18 21:46:39 719] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2019/11/18 21:46:39 719] transport  665  net.nettype=  unknown  
+[2019/11/18 21:46:39 719] transport  675  url.full=  nil  
+[2019/11/18 21:46:39 719] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2019/11/18 21:46:39 719] transport  907  net type:  unknown  
+[2019/11/18 21:46:39 719] transport  908  net operator:  def  
+[2019/11/18 21:46:39 719] transport  909  use proxy:  false  
+[2019/11/18 21:46:39 719] lgi        277  [session] send lgi request  
+[2019/11/18 21:46:39 719] transport  1105 session.domain=  open.xf-yun.com  
+[2019/11/18 21:46:39 720] transport  1106 url.host=  open.xf-yun.com  
+[2019/11/18 21:46:39 720] transport  1083 NAMESERVER START  
+[2019/11/18 21:46:39 720] transport  1086 name =   ath  
+[2019/11/18 21:46:39 720] ns         634  ntt=  unknown  
+[2019/11/18 21:46:39 720] transport  1089 trans,ns_inprog =  0  
+[2019/11/18 21:46:39 720] ns         582  name server start  
+[2019/11/18 21:46:39 720] ns         588  ns_sub =   ath  
+[2019/11/18 21:46:39 720] ns         596  ns_host =   open.xf-yun.com  
+[2019/11/18 21:46:39 720] ns         475  ns_host=  open.xf-yun.com  
+[2019/11/18 21:46:39 720] ns         555  net_type =  standard  
+[2019/11/18 21:46:39 720] ns         556  cmwapascmnet =  
+[2019/11/18 21:46:39 720] ns         557  uniwapasuninet =  
+[2019/11/18 21:46:39 720] ns         558  ctwapasctnet =  
+[2019/11/18 21:46:39 720] ns         576  host=  hdns.xf-yun.com  
+[2019/11/18 21:46:39 720] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2019/11/18 21:46:39 720] lgi        244  lver:  nil  
+[2019/11/18 21:46:39 721] lgi        249  cfg_ver:  nil  
+[2019/11/18 21:46:39 721] transport  1860 transport_obj.send | in  
+[2019/11/18 21:46:39 721] transport  1866 self.msg_flag_q  table(c363b28) 
+[2019/11/18 21:46:39 721] transport  1867 self.msg_q  table(c363eb8) 
+[2019/11/18 21:46:39 721] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:46:39 721] transport  1800 self.soc  nil  
+[2019/11/18 21:46:39 721] transport  1801 self.connected  false  
+[2019/11/18 21:46:39 721] transport  1802 self.latesterr  0  
+[2019/11/18 21:46:39 721] transport  1873 transport_obj.send | out  
+[2019/11/18 21:46:39 753] network    245  dns resp  0  ns1  
+[2019/11/18 21:46:39 753] ns         422  ns dns ok  42.62.116.18  
+[2019/11/18 21:46:39 753] ns         202  iplist not avail  
+[2019/11/18 21:46:39 755] ns         429  is_voicecloud_ip=  0  
+[2019/11/18 21:46:39 755] ns         436  ip_is_expected=  true  
+[2019/11/18 21:46:39 755] ns         444  ip_is_expected=  true  
+[2019/11/18 21:46:39 755] network    445  gethttpresp2  42.62.116.18  80  ns2  
+[2019/11/18 21:46:39 755] network    465  prot_type  tcp  
+[2019/11/18 21:46:39 780] transport  194  [dns] [1] response 42.62.116.18  
+[2019/11/18 21:46:39 780] transport  202  42  62  116  18  
+[2019/11/18 21:46:39 780] transport  204  ipv =  v4  
+[2019/11/18 21:46:39 780] transport  208  dns ip is v4  
+[2019/11/18 21:46:39 780] transport  130  iplist not avail  
+[2019/11/18 21:46:39 782] transport  247  no iplist now  
+[2019/11/18 21:46:39 782] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2019/11/18 21:46:39 783] transport  291  dns cb start conn  
+[2019/11/18 21:46:39 783] transport  1304 [soc] connect   42.62.116.18  1028  
+[2019/11/18 21:46:39 783] transport  1316 mspsoc.open,prot_type=  tcp  
+[2019/11/18 21:46:39 802] network    350  connected  ns2  
+[2019/11/18 21:46:39 803] network    353  send ok  268  ns2  
+[2019/11/18 21:46:39 822] transport  473  [soc] [1] connected  
+[2019/11/18 21:46:39 822] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:46:39 822] transport  1800 self.soc  udata(c335628) 
+[2019/11/18 21:46:39 822] transport  1801 self.connected  true  
+[2019/11/18 21:46:39 822] transport  1802 self.latesterr  0  
+[2019/11/18 21:46:39 822] transport  1819 transport:try2send,#msg_q=  1  
+[2019/11/18 21:46:39 822] transport  1359 build http request.  
+[2019/11/18 21:46:39 822] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: auth
+X-Par: ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E0%2E42%2E1226&key=08jJT/Z^iRX0g=
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 323
+
+----
+Content-Length:56
+Content-Type:text/appinfo
+Content-Encoding:gzip,encrypt/0.2
+
+ot‹u+N`òÅÄyy|~É}  
+[2019/11/18 21:46:39 825] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/18 21:46:39 825] transport  482  [soc] [1] send ok  508  
+[2019/11/18 21:46:39 825] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:46:39 825] transport  1800 self.soc  udata(c335628) 
+[2019/11/18 21:46:39 825] transport  1801 self.connected  true  
+[2019/11/18 21:46:39 825] transport  1802 self.latesterr  0  
+[2019/11/18 21:46:39 825] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/18 21:46:39 851] network    362  readable  ns2  
+[2019/11/18 21:46:39 851] network    366  HTTP/1.1 200 OK
+Date: Mon, 18 Nov 2019 13:46:39 GMT
+Content-Type: application/json
+Content-Length: 310
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.35","port":80,"idc":"dx"},{"ip":"42.62.42.10","port":1028,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.42.10","port":1028,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2019/11/18 21:46:39 851] ns         253  name server http resp  0  
+[2019/11/18 21:46:39 851] ns         266  ns response OK for this time!  
+[2019/11/18 21:46:39 851] ns         277  from_server=  iflytek/hdns  
+[2019/11/18 21:46:39 854] ns         360  compel :  0  
+[2019/11/18 21:46:39 854] transport  1063 ns_ip =   42.62.116.35  
+[2019/11/18 21:46:39 854] transport  1064 ip_type =  assigned_athopen.xf-yun.com_host  
+[2019/11/18 21:46:39 854] ns         670  no data in ns_q  
+[2019/11/18 21:46:39 854] ns         671  conti_ns,ns_inprog =   1  
+[2019/11/18 21:46:39 900] transport  494  [soc] [1] readable  
+[2019/11/18 21:46:39 901] transport  1767 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2019/11/18 21:46:39 905
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E42%2E1226&uid=d13853223522&key=0b2bAdSWQJE8JseB4LS6zu3dtMMNL1Nzcsh4ZwkeyhKU6^^GHVr44O7HI9DrGkC9Lc^jyDpJPROzIrufqCHNZO1Cu5^oIc1k7U
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2019/11/18 21:46:39 934
+
+0  
+[2019/11/18 21:46:39 901] transport  1494 a_complete_httpmessage  200  
+[2019/11/18 21:46:39 901] transport  1604 is_update  false  
+[2019/11/18 21:46:39 901] lgi        105  [trans] [id = lgi_] readable  
+[2019/11/18 21:46:39 901] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2019/11/18 21:46:39 901] transport  972  iplist not avail  
+[2019/11/18 21:46:39 903] transport  1332 [soc] disconnect   
+[2019/11/18 21:46:39 903] transport  991  transport clean  
+[2019/11/18 21:46:39 903] lgi        136  lgi resp!  
+[2019/11/18 21:46:39 903] lgi        143  lgi ok!  
+[2019/11/18 21:46:39 903] lgi        151  unkown  d13853223522  
+[2019/11/18 21:46:39 907] lgi        72   loginid =   1  d13853223522  
+[2019/11/18 21:46:39 907] lgi        75   notify_lgi_result, ret = 0  
+[2019/11/18 21:46:41 049] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:46:48 213 
+============================================================
+[2019/11/18 21:46:48 214] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:46:48 216] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(6aa2060) 
+[2019/11/18 21:46:48 217] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:46:48 217] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:46:48 217] lgi        347  work_dir  .  
+[2019/11/18 21:46:48 217] lgi        403  token:  nil  
+[2019/11/18 21:46:48 217] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:46:48 217] lgi        519  ns_enable=  1  
+[2019/11/18 21:46:48 217] lgi        531  prot_ver=1  
+[2019/11/18 21:46:48 217] lgi        542  prot_type=tcp  
+[2019/11/18 21:46:48 219] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:46:48 253] lgi        598  LGI_MSG_START, caller =  cloud_cisr1P1HHBHj72wlWyvr9aalLju0b0sAB8t  
+[2019/11/18 21:46:48 253] lgi        604  lgistat =   0  
+[2019/11/18 21:46:48 253] lgi        630  lgi_auth_id =  nil  
+[2019/11/18 21:46:48 253] config     91   select default  
+[2019/11/18 21:46:48 253] config     113  use general cloud  
+[2019/11/18 21:46:48 253] transport  645  paramkvsport is   0  
+[2019/11/18 21:46:48 253] transport  657  ns_enable=  1  
+[2019/11/18 21:46:48 253] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2019/11/18 21:46:48 253] transport  665  net.nettype=  unknown  
+[2019/11/18 21:46:48 253] transport  675  url.full=  nil  
+[2019/11/18 21:46:48 255] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2019/11/18 21:46:48 255] transport  907  net type:  unknown  
+[2019/11/18 21:46:48 255] transport  908  net operator:  def  
+[2019/11/18 21:46:48 255] transport  909  use proxy:  false  
+[2019/11/18 21:46:48 255] lgi        277  [session] send lgi request  
+[2019/11/18 21:46:48 255] transport  1105 session.domain=  open.xf-yun.com  
+[2019/11/18 21:46:48 255] transport  1106 url.host=  open.xf-yun.com  
+[2019/11/18 21:46:48 255] transport  1083 NAMESERVER START  
+[2019/11/18 21:46:48 256] transport  1086 name =   ath  
+[2019/11/18 21:46:48 256] ns         634  ntt=  unknown  
+[2019/11/18 21:46:48 256] transport  1089 trans,ns_inprog =  0  
+[2019/11/18 21:46:48 256] ns         582  name server start  
+[2019/11/18 21:46:48 256] ns         588  ns_sub =   ath  
+[2019/11/18 21:46:48 256] ns         596  ns_host =   open.xf-yun.com  
+[2019/11/18 21:46:48 256] ns         475  ns_host=  open.xf-yun.com  
+[2019/11/18 21:46:48 256] ns         555  net_type =  standard  
+[2019/11/18 21:46:48 256] ns         556  cmwapascmnet =  
+[2019/11/18 21:46:48 256] ns         557  uniwapasuninet =  
+[2019/11/18 21:46:48 256] ns         558  ctwapasctnet =  
+[2019/11/18 21:46:48 256] ns         576  host=  hdns.xf-yun.com  
+[2019/11/18 21:46:48 256] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2019/11/18 21:46:48 256] lgi        244  lver:  nil  
+[2019/11/18 21:46:48 257] lgi        249  cfg_ver:  nil  
+[2019/11/18 21:46:48 257] transport  1860 transport_obj.send | in  
+[2019/11/18 21:46:48 257] transport  1866 self.msg_flag_q  table(c3936a8) 
+[2019/11/18 21:46:48 257] transport  1867 self.msg_q  table(c393918) 
+[2019/11/18 21:46:48 257] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:46:48 257] transport  1800 self.soc  nil  
+[2019/11/18 21:46:48 257] transport  1801 self.connected  false  
+[2019/11/18 21:46:48 257] transport  1802 self.latesterr  0  
+[2019/11/18 21:46:48 257] transport  1873 transport_obj.send | out  
+[2019/11/18 21:46:48 278] network    245  dns resp  0  ns1  
+[2019/11/18 21:46:48 279] ns         422  ns dns ok  42.62.116.18  
+[2019/11/18 21:46:48 279] ns         202  iplist not avail  
+[2019/11/18 21:46:48 279] ns         429  is_voicecloud_ip=  0  
+[2019/11/18 21:46:48 279] ns         436  ip_is_expected=  true  
+[2019/11/18 21:46:48 279] ns         444  ip_is_expected=  true  
+[2019/11/18 21:46:48 280] network    445  gethttpresp2  42.62.116.18  80  ns2  
+[2019/11/18 21:46:48 280] network    465  prot_type  tcp  
+[2019/11/18 21:46:48 286] transport  194  [dns] [1] response 42.62.116.18  
+[2019/11/18 21:46:48 286] transport  202  42  62  116  18  
+[2019/11/18 21:46:48 286] transport  204  ipv =  v4  
+[2019/11/18 21:46:48 286] transport  208  dns ip is v4  
+[2019/11/18 21:46:48 286] transport  130  iplist not avail  
+[2019/11/18 21:46:48 288] transport  247  no iplist now  
+[2019/11/18 21:46:48 288] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2019/11/18 21:46:48 289] transport  291  dns cb start conn  
+[2019/11/18 21:46:48 289] transport  1304 [soc] connect   42.62.116.18  1028  
+[2019/11/18 21:46:48 289] transport  1316 mspsoc.open,prot_type=  tcp  
+[2019/11/18 21:46:48 322] network    350  connected  ns2  
+[2019/11/18 21:46:48 323] network    353  send ok  268  ns2  
+[2019/11/18 21:46:48 345] transport  473  [soc] [1] connected  
+[2019/11/18 21:46:48 345] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:46:48 345] transport  1800 self.soc  udata(6aa1490) 
+[2019/11/18 21:46:48 345] transport  1801 self.connected  true  
+[2019/11/18 21:46:48 345] transport  1802 self.latesterr  0  
+[2019/11/18 21:46:48 345] transport  1819 transport:try2send,#msg_q=  1  
+[2019/11/18 21:46:48 345] transport  1359 build http request.  
+[2019/11/18 21:46:48 345] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: auth
+X-Par: ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E0%2E42%2E1226&key=08jJT/Z^iRX0g=
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 323
+
+----
+Content-Length:56
+Content-Type:text/appinfo
+Content-Encoding:gzip,encrypt/0.2
+
+ot‹u+N`òÅÄyy|~É}  
+[2019/11/18 21:46:48 348] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/18 21:46:48 349] transport  482  [soc] [1] send ok  508  
+[2019/11/18 21:46:48 349] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:46:48 349] transport  1800 self.soc  udata(6aa1490) 
+[2019/11/18 21:46:48 349] transport  1801 self.connected  true  
+[2019/11/18 21:46:48 349] transport  1802 self.latesterr  0  
+[2019/11/18 21:46:48 351] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/18 21:46:48 365] network    362  readable  ns2  
+[2019/11/18 21:46:48 365] network    366  HTTP/1.1 200 OK
+Date: Mon, 18 Nov 2019 13:46:48 GMT
+Content-Type: application/json
+Content-Length: 307
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.42.10","port":1028,"idc":"dx"},{"ip":"42.62.42.18","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.42.18","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2019/11/18 21:46:48 367] ns         253  name server http resp  0  
+[2019/11/18 21:46:48 367] ns         266  ns response OK for this time!  
+[2019/11/18 21:46:48 367] ns         277  from_server=  iflytek/hdns  
+[2019/11/18 21:46:48 368] ns         360  compel :  0  
+[2019/11/18 21:46:48 368] transport  1063 ns_ip =   42.62.42.10  
+[2019/11/18 21:46:48 368] transport  1064 ip_type =  assigned_athopen.xf-yun.com_host  
+[2019/11/18 21:46:48 368] ns         670  no data in ns_q  
+[2019/11/18 21:46:48 368] ns         671  conti_ns,ns_inprog =   1  
+[2019/11/18 21:46:48 394] transport  494  [soc] [1] readable  
+[2019/11/18 21:46:48 395] transport  1767 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2019/11/18 21:46:48 430
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E42%2E1226&uid=d13853223522&key=0bdgtwTYA0mMShBCwg3rE/1cYb5sMwljBgscx7aM5x4BS^^GHVr44O7HI9DrGkC9Lc^jyDpJPROzIrufqCHNZO1Cu5^oIc1k7U
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2019/11/18 21:46:48 447
+
+0  
+[2019/11/18 21:46:48 395] transport  1494 a_complete_httpmessage  200  
+[2019/11/18 21:46:48 395] transport  1604 is_update  false  
+[2019/11/18 21:46:48 395] lgi        105  [trans] [id = lgi_] readable  
+[2019/11/18 21:46:48 397] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2019/11/18 21:46:48 397] transport  972  iplist not avail  
+[2019/11/18 21:46:48 397] transport  1332 [soc] disconnect   
+[2019/11/18 21:46:48 398] transport  991  transport clean  
+[2019/11/18 21:46:48 398] lgi        136  lgi resp!  
+[2019/11/18 21:46:48 398] lgi        143  lgi ok!  
+[2019/11/18 21:46:48 398] lgi        151  unkown  d13853223522  
+[2019/11/18 21:46:48 401] lgi        72   loginid =   1  d13853223522  
+[2019/11/18 21:46:48 401] lgi        75   notify_lgi_result, ret = 0  
+[2019/11/18 21:46:50 342] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:46:58 627 
+============================================================
+[2019/11/18 21:46:58 628] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:46:58 628] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(c3bb4a0) 
+[2019/11/18 21:46:58 628] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:46:58 628] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:46:58 628] lgi        347  work_dir  .  
+[2019/11/18 21:46:58 630] lgi        403  token:  nil  
+[2019/11/18 21:46:58 630] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:46:58 630] lgi        519  ns_enable=  1  
+[2019/11/18 21:46:58 630] lgi        531  prot_ver=1  
+[2019/11/18 21:46:58 630] lgi        542  prot_type=tcp  
+[2019/11/18 21:46:58 631] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:46:59 447] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:47:07 618 
+============================================================
+[2019/11/18 21:47:07 621] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:47:07 621] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(c36a3c0) 
+[2019/11/18 21:47:07 621] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:47:07 621] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:47:07 621] lgi        347  work_dir  .  
+[2019/11/18 21:47:07 622] lgi        403  token:  nil  
+[2019/11/18 21:47:07 622] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:47:07 624] lgi        519  ns_enable=  1  
+[2019/11/18 21:47:07 624] lgi        531  prot_ver=1  
+[2019/11/18 21:47:07 624] lgi        542  prot_type=tcp  
+[2019/11/18 21:47:07 624] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:47:08 509] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:47:29 530 
+============================================================
+[2019/11/18 21:47:29 532] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:47:29 533] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(6a80598) 
+[2019/11/18 21:47:29 533] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:47:29 533] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:47:29 535] lgi        347  work_dir  .  
+[2019/11/18 21:47:29 535] lgi        403  token:  nil  
+[2019/11/18 21:47:29 535] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:47:29 536] lgi        519  ns_enable=  1  
+[2019/11/18 21:47:29 536] lgi        531  prot_ver=1  
+[2019/11/18 21:47:29 536] lgi        542  prot_type=tcp  
+[2019/11/18 21:47:29 536] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:47:29 697] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:47:52 878 
+============================================================
+[2019/11/18 21:47:52 880] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:47:52 881] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(c2fc850) 
+[2019/11/18 21:47:52 881] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:47:52 881] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:47:52 881] lgi        347  work_dir  .  
+[2019/11/18 21:47:52 881] lgi        403  token:  nil  
+[2019/11/18 21:47:52 881] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:47:52 882] lgi        519  ns_enable=  1  
+[2019/11/18 21:47:52 882] lgi        531  prot_ver=1  
+[2019/11/18 21:47:52 882] lgi        542  prot_type=tcp  
+[2019/11/18 21:47:52 882] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:47:53 667] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:47:55 154 
+============================================================
+[2019/11/18 21:47:55 154] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:47:55 155] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(c408638) 
+[2019/11/18 21:47:55 157] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:47:55 157] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:47:55 157] lgi        347  work_dir  .  
+[2019/11/18 21:47:55 157] lgi        403  token:  nil  
+[2019/11/18 21:47:55 157] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:47:55 157] lgi        519  ns_enable=  1  
+[2019/11/18 21:47:55 157] lgi        531  prot_ver=1  
+[2019/11/18 21:47:55 157] lgi        542  prot_type=tcp  
+[2019/11/18 21:47:55 157] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:47:55 311] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:48:20 385 
+============================================================
+[2019/11/18 21:48:20 387] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:48:20 387] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(6aa7c80) 
+[2019/11/18 21:48:20 388] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:48:20 388] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:48:20 388] lgi        347  work_dir  .  
+[2019/11/18 21:48:20 388] lgi        403  token:  nil  
+[2019/11/18 21:48:20 388] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:48:20 388] lgi        519  ns_enable=  1  
+[2019/11/18 21:48:20 388] lgi        531  prot_ver=1  
+[2019/11/18 21:48:20 388] lgi        542  prot_type=tcp  
+[2019/11/18 21:48:20 388] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:48:21 400] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:49:10 197 
+============================================================
+[2019/11/18 21:49:10 197] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:49:10 198] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(c304e70) 
+[2019/11/18 21:49:10 198] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:49:10 198] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:49:10 198] lgi        347  work_dir  .  
+[2019/11/18 21:49:10 198] lgi        403  token:  nil  
+[2019/11/18 21:49:10 198] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:49:10 200] lgi        519  ns_enable=  1  
+[2019/11/18 21:49:10 200] lgi        531  prot_ver=1  
+[2019/11/18 21:49:10 200] lgi        542  prot_type=tcp  
+[2019/11/18 21:49:10 200] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:49:10 321] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:49:49 079 
+============================================================
+[2019/11/18 21:49:49 081] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:49:49 082] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(6a603f0) 
+[2019/11/18 21:49:49 082] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:49:49 082] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:49:49 082] lgi        347  work_dir  .  
+[2019/11/18 21:49:49 082] lgi        403  token:  nil  
+[2019/11/18 21:49:49 082] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:49:49 082] lgi        519  ns_enable=  1  
+[2019/11/18 21:49:49 082] lgi        531  prot_ver=1  
+[2019/11/18 21:49:49 082] lgi        542  prot_type=tcp  
+[2019/11/18 21:49:49 082] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:49:50 266] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:50:05 891 
+============================================================
+[2019/11/18 21:50:05 891] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:50:05 892] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(c3c4258) 
+[2019/11/18 21:50:05 892] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:50:05 894] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:50:05 894] lgi        347  work_dir  .  
+[2019/11/18 21:50:05 894] lgi        403  token:  nil  
+[2019/11/18 21:50:05 894] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:50:05 894] lgi        519  ns_enable=  1  
+[2019/11/18 21:50:05 894] lgi        531  prot_ver=1  
+[2019/11/18 21:50:05 894] lgi        542  prot_type=tcp  
+[2019/11/18 21:50:05 894] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:50:05 924] lgi        598  LGI_MSG_START, caller =  cloud_cisr1P1HHBHj72PuWNrIxaakZGddow4zuEE  
+[2019/11/18 21:50:05 924] lgi        604  lgistat =   0  
+[2019/11/18 21:50:05 924] lgi        630  lgi_auth_id =  nil  
+[2019/11/18 21:50:05 924] config     91   select default  
+[2019/11/18 21:50:05 924] config     113  use general cloud  
+[2019/11/18 21:50:05 924] transport  645  paramkvsport is   0  
+[2019/11/18 21:50:05 924] transport  657  ns_enable=  1  
+[2019/11/18 21:50:05 924] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2019/11/18 21:50:05 926] transport  665  net.nettype=  unknown  
+[2019/11/18 21:50:05 926] transport  675  url.full=  nil  
+[2019/11/18 21:50:05 926] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2019/11/18 21:50:05 926] transport  907  net type:  unknown  
+[2019/11/18 21:50:05 926] transport  908  net operator:  def  
+[2019/11/18 21:50:05 926] transport  909  use proxy:  false  
+[2019/11/18 21:50:05 926] lgi        277  [session] send lgi request  
+[2019/11/18 21:50:05 926] transport  1105 session.domain=  open.xf-yun.com  
+[2019/11/18 21:50:05 926] transport  1106 url.host=  open.xf-yun.com  
+[2019/11/18 21:50:05 927] transport  1083 NAMESERVER START  
+[2019/11/18 21:50:05 927] transport  1086 name =   ath  
+[2019/11/18 21:50:05 927] ns         634  ntt=  unknown  
+[2019/11/18 21:50:05 927] transport  1089 trans,ns_inprog =  0  
+[2019/11/18 21:50:05 927] ns         582  name server start  
+[2019/11/18 21:50:05 927] ns         588  ns_sub =   ath  
+[2019/11/18 21:50:05 927] ns         596  ns_host =   open.xf-yun.com  
+[2019/11/18 21:50:05 927] ns         475  ns_host=  open.xf-yun.com  
+[2019/11/18 21:50:05 927] ns         555  net_type =  standard  
+[2019/11/18 21:50:05 927] ns         556  cmwapascmnet =  
+[2019/11/18 21:50:05 927] ns         557  uniwapasuninet =  
+[2019/11/18 21:50:05 927] ns         558  ctwapasctnet =  
+[2019/11/18 21:50:05 927] ns         576  host=  hdns.xf-yun.com  
+[2019/11/18 21:50:05 927] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2019/11/18 21:50:05 927] lgi        244  lver:  nil  
+[2019/11/18 21:50:05 927] lgi        249  cfg_ver:  nil  
+[2019/11/18 21:50:05 928] transport  1860 transport_obj.send | in  
+[2019/11/18 21:50:05 928] transport  1866 self.msg_flag_q  table(6a47d18) 
+[2019/11/18 21:50:05 928] transport  1867 self.msg_q  table(6a47c88) 
+[2019/11/18 21:50:05 928] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:50:05 928] transport  1800 self.soc  nil  
+[2019/11/18 21:50:05 928] transport  1801 self.connected  false  
+[2019/11/18 21:50:05 928] transport  1802 self.latesterr  0  
+[2019/11/18 21:50:05 928] transport  1873 transport_obj.send | out  
+[2019/11/18 21:50:05 960] network    245  dns resp  0  ns1  
+[2019/11/18 21:50:05 960] ns         422  ns dns ok  42.62.116.34  
+[2019/11/18 21:50:05 960] ns         202  iplist not avail  
+[2019/11/18 21:50:05 960] ns         429  is_voicecloud_ip=  0  
+[2019/11/18 21:50:05 960] ns         436  ip_is_expected=  true  
+[2019/11/18 21:50:05 960] ns         444  ip_is_expected=  true  
+[2019/11/18 21:50:05 960] network    445  gethttpresp2  42.62.116.34  80  ns2  
+[2019/11/18 21:50:05 960] network    465  prot_type  tcp  
+[2019/11/18 21:50:05 970] transport  194  [dns] [1] response 42.62.116.34  
+[2019/11/18 21:50:05 970] transport  202  42  62  116  34  
+[2019/11/18 21:50:05 970] transport  204  ipv =  v4  
+[2019/11/18 21:50:05 970] transport  208  dns ip is v4  
+[2019/11/18 21:50:05 970] transport  130  iplist not avail  
+[2019/11/18 21:50:05 970] transport  247  no iplist now  
+[2019/11/18 21:50:05 970] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.34  
+[2019/11/18 21:50:05 971] transport  291  dns cb start conn  
+[2019/11/18 21:50:05 971] transport  1304 [soc] connect   42.62.116.34  1028  
+[2019/11/18 21:50:05 971] transport  1316 mspsoc.open,prot_type=  tcp  
+[2019/11/18 21:50:05 999] network    350  connected  ns2  
+[2019/11/18 21:50:06 000] network    353  send ok  268  ns2  
+[2019/11/18 21:50:06 025] transport  473  [soc] [1] connected  
+[2019/11/18 21:50:06 026] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:50:06 026] transport  1800 self.soc  udata(6a36a78) 
+[2019/11/18 21:50:06 026] transport  1801 self.connected  true  
+[2019/11/18 21:50:06 026] transport  1802 self.latesterr  0  
+[2019/11/18 21:50:06 028] transport  1819 transport:try2send,#msg_q=  1  
+[2019/11/18 21:50:06 028] transport  1359 build http request.  
+[2019/11/18 21:50:06 029] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: auth
+X-Par: ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E0%2E42%2E1226&key=08jJT/Z^iRX0g=
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 323
+
+----
+Content-Length:56
+Content-Type:text/appinfo
+Content-Encoding:gzip,encrypt/0.2
+
+ot‹u+N`òÅÄyy|~É}  
+[2019/11/18 21:50:06 036] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/18 21:50:06 039] transport  482  [soc] [1] send ok  508  
+[2019/11/18 21:50:06 040] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:50:06 040] transport  1800 self.soc  udata(6a36a78) 
+[2019/11/18 21:50:06 040] transport  1801 self.connected  true  
+[2019/11/18 21:50:06 042] transport  1802 self.latesterr  0  
+[2019/11/18 21:50:06 042] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/18 21:50:06 045] network    362  readable  ns2  
+[2019/11/18 21:50:06 046] network    366  HTTP/1.1 200 OK
+Date: Mon, 18 Nov 2019 13:50:06 GMT
+Content-Type: application/json
+Content-Length: 307
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.42.10","port":1028,"idc":"dx"},{"ip":"42.62.42.18","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.42.18","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2019/11/18 21:50:06 048] ns         253  name server http resp  0  
+[2019/11/18 21:50:06 048] ns         266  ns response OK for this time!  
+[2019/11/18 21:50:06 048] ns         277  from_server=  iflytek/hdns  
+[2019/11/18 21:50:06 049] ns         360  compel :  0  
+[2019/11/18 21:50:06 051] transport  1063 ns_ip =   42.62.42.10  
+[2019/11/18 21:50:06 051] transport  1064 ip_type =  assigned_athopen.xf-yun.com_host  
+[2019/11/18 21:50:06 051] ns         670  no data in ns_q  
+[2019/11/18 21:50:06 051] ns         671  conti_ns,ns_inprog =   1  
+[2019/11/18 21:50:06 104] transport  494  [soc] [1] readable  
+[2019/11/18 21:50:06 104] transport  1767 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2019/11/18 21:50:06 118
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E42%2E1226&uid=d13853223522&key=0bxPU^v/ldvICDAPKwimbJSJM2eQEaRo1AKjex9k6iPCC^^GHVr44O7HI9DrGkC9Lc^jyDpJPROzIrufqCHNZO1Cu5^oIc1k7U
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2019/11/18 21:50:06 134
+
+0  
+[2019/11/18 21:50:06 105] transport  1494 a_complete_httpmessage  200  
+[2019/11/18 21:50:06 105] transport  1604 is_update  false  
+[2019/11/18 21:50:06 105] lgi        105  [trans] [id = lgi_] readable  
+[2019/11/18 21:50:06 107] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.34  
+[2019/11/18 21:50:06 107] transport  981  cached ip is confirmed  
+[2019/11/18 21:50:06 107] transport  1332 [soc] disconnect   
+[2019/11/18 21:50:06 108] transport  991  transport clean  
+[2019/11/18 21:50:06 108] lgi        136  lgi resp!  
+[2019/11/18 21:50:06 108] lgi        143  lgi ok!  
+[2019/11/18 21:50:06 108] lgi        151  unkown  d13853223522  
+[2019/11/18 21:50:06 111] lgi        72   loginid =   1  d13853223522  
+[2019/11/18 21:50:06 111] lgi        75   notify_lgi_result, ret = 0  
+[2019/11/18 21:50:07 855] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:50:24 992 
+============================================================
+[2019/11/18 21:50:24 993] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:50:24 993] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(c32f080) 
+[2019/11/18 21:50:24 993] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:50:24 993] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:50:24 994] lgi        347  work_dir  .  
+[2019/11/18 21:50:24 994] lgi        403  token:  nil  
+[2019/11/18 21:50:24 994] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:50:24 994] lgi        519  ns_enable=  1  
+[2019/11/18 21:50:24 996] lgi        531  prot_ver=1  
+[2019/11/18 21:50:24 996] lgi        542  prot_type=tcp  
+[2019/11/18 21:50:24 996] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:50:25 028] lgi        598  LGI_MSG_START, caller =  cloud_cisr1P1HHBHj72PAWNe57aa0VTCZJ5F40tB  
+[2019/11/18 21:50:25 028] lgi        604  lgistat =   0  
+[2019/11/18 21:50:25 029] lgi        630  lgi_auth_id =  nil  
+[2019/11/18 21:50:25 029] config     91   select default  
+[2019/11/18 21:50:25 029] config     113  use general cloud  
+[2019/11/18 21:50:25 029] transport  645  paramkvsport is   0  
+[2019/11/18 21:50:25 029] transport  657  ns_enable=  1  
+[2019/11/18 21:50:25 029] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2019/11/18 21:50:25 029] transport  665  net.nettype=  unknown  
+[2019/11/18 21:50:25 029] transport  675  url.full=  nil  
+[2019/11/18 21:50:25 029] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2019/11/18 21:50:25 029] transport  907  net type:  unknown  
+[2019/11/18 21:50:25 029] transport  908  net operator:  def  
+[2019/11/18 21:50:25 029] transport  909  use proxy:  false  
+[2019/11/18 21:50:25 029] lgi        277  [session] send lgi request  
+[2019/11/18 21:50:25 029] transport  1105 session.domain=  open.xf-yun.com  
+[2019/11/18 21:50:25 029] transport  1106 url.host=  open.xf-yun.com  
+[2019/11/18 21:50:25 029] transport  1083 NAMESERVER START  
+[2019/11/18 21:50:25 029] transport  1086 name =   ath  
+[2019/11/18 21:50:25 029] ns         634  ntt=  unknown  
+[2019/11/18 21:50:25 029] transport  1089 trans,ns_inprog =  0  
+[2019/11/18 21:50:25 029] ns         582  name server start  
+[2019/11/18 21:50:25 029] ns         588  ns_sub =   ath  
+[2019/11/18 21:50:25 030] ns         596  ns_host =   open.xf-yun.com  
+[2019/11/18 21:50:25 030] ns         475  ns_host=  open.xf-yun.com  
+[2019/11/18 21:50:25 030] ns         555  net_type =  standard  
+[2019/11/18 21:50:25 030] ns         556  cmwapascmnet =  
+[2019/11/18 21:50:25 030] ns         557  uniwapasuninet =  
+[2019/11/18 21:50:25 030] ns         558  ctwapasctnet =  
+[2019/11/18 21:50:25 030] ns         576  host=  hdns.xf-yun.com  
+[2019/11/18 21:50:25 030] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2019/11/18 21:50:25 032] lgi        244  lver:  nil  
+[2019/11/18 21:50:25 032] lgi        249  cfg_ver:  nil  
+[2019/11/18 21:50:25 032] transport  1860 transport_obj.send | in  
+[2019/11/18 21:50:25 032] transport  1866 self.msg_flag_q  table(c349f88) 
+[2019/11/18 21:50:25 032] transport  1867 self.msg_q  table(c349dd8) 
+[2019/11/18 21:50:25 032] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:50:25 032] transport  1800 self.soc  nil  
+[2019/11/18 21:50:25 032] transport  1801 self.connected  false  
+[2019/11/18 21:50:25 032] transport  1802 self.latesterr  0  
+[2019/11/18 21:50:25 032] transport  1873 transport_obj.send | out  
+[2019/11/18 21:50:25 052] network    245  dns resp  0  ns1  
+[2019/11/18 21:50:25 052] ns         422  ns dns ok  42.62.116.34  
+[2019/11/18 21:50:25 052] ns         202  iplist not avail  
+[2019/11/18 21:50:25 052] ns         429  is_voicecloud_ip=  0  
+[2019/11/18 21:50:25 052] ns         436  ip_is_expected=  true  
+[2019/11/18 21:50:25 052] ns         444  ip_is_expected=  true  
+[2019/11/18 21:50:25 053] network    445  gethttpresp2  42.62.116.34  80  ns2  
+[2019/11/18 21:50:25 053] network    465  prot_type  tcp  
+[2019/11/18 21:50:25 059] transport  194  [dns] [1] response 42.62.116.34  
+[2019/11/18 21:50:25 059] transport  202  42  62  116  34  
+[2019/11/18 21:50:25 059] transport  204  ipv =  v4  
+[2019/11/18 21:50:25 059] transport  208  dns ip is v4  
+[2019/11/18 21:50:25 059] transport  130  iplist not avail  
+[2019/11/18 21:50:25 061] transport  247  no iplist now  
+[2019/11/18 21:50:25 061] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.34  
+[2019/11/18 21:50:25 062] transport  291  dns cb start conn  
+[2019/11/18 21:50:25 062] transport  1304 [soc] connect   42.62.116.34  1028  
+[2019/11/18 21:50:25 063] transport  1316 mspsoc.open,prot_type=  tcp  
+[2019/11/18 21:50:25 088] network    350  connected  ns2  
+[2019/11/18 21:50:25 091] network    353  send ok  268  ns2  
+[2019/11/18 21:50:25 115] transport  473  [soc] [1] connected  
+[2019/11/18 21:50:25 117] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:50:25 117] transport  1800 self.soc  udata(357be80) 
+[2019/11/18 21:50:25 117] transport  1801 self.connected  true  
+[2019/11/18 21:50:25 118] transport  1802 self.latesterr  0  
+[2019/11/18 21:50:25 118] transport  1819 transport:try2send,#msg_q=  1  
+[2019/11/18 21:50:25 118] transport  1359 build http request.  
+[2019/11/18 21:50:25 121] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: auth
+X-Par: ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E0%2E42%2E1226&key=08jJT/Z^iRX0g=
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 323
+
+----
+Content-Length:56
+Content-Type:text/appinfo
+Content-Encoding:gzip,encrypt/0.2
+
+ot‹u+N`òÅÄyy|~É}  
+[2019/11/18 21:50:25 128] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/18 21:50:25 131] transport  482  [soc] [1] send ok  508  
+[2019/11/18 21:50:25 131] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:50:25 131] transport  1800 self.soc  udata(357be80) 
+[2019/11/18 21:50:25 132] transport  1801 self.connected  true  
+[2019/11/18 21:50:25 132] transport  1802 self.latesterr  0  
+[2019/11/18 21:50:25 134] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/18 21:50:25 141] network    362  readable  ns2  
+[2019/11/18 21:50:25 142] network    366  HTTP/1.1 200 OK
+Date: Mon, 18 Nov 2019 13:50:25 GMT
+Content-Type: application/json
+Content-Length: 308
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.34","port":80,"idc":"dx"},{"ip":"42.62.116.35","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.35","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2019/11/18 21:50:25 144] ns         253  name server http resp  0  
+[2019/11/18 21:50:25 144] ns         266  ns response OK for this time!  
+[2019/11/18 21:50:25 144] ns         277  from_server=  iflytek/hdns  
+[2019/11/18 21:50:25 144] ns         360  compel :  0  
+[2019/11/18 21:50:25 145] transport  1063 ns_ip =   42.62.116.34  
+[2019/11/18 21:50:25 145] transport  1064 ip_type =  assigned_athopen.xf-yun.com_host  
+[2019/11/18 21:50:25 145] ns         670  no data in ns_q  
+[2019/11/18 21:50:25 145] ns         671  conti_ns,ns_inprog =   1  
+[2019/11/18 21:50:25 203] transport  494  [soc] [1] readable  
+[2019/11/18 21:50:25 203] transport  1767 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2019/11/18 21:50:25 209
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E42%2E1226&uid=d13853223522&key=0bcmm2jGhAw0kGJWQWIV^zGzGIFt1md/B7ibfHFgZ^y3y^^GHVr44O7HI9DrGkC9Lc^jyDpJPROzIrufqCHNZO1Cu5^oIc1k7U
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2019/11/18 21:50:25 227
+
+0  
+[2019/11/18 21:50:25 203] transport  1494 a_complete_httpmessage  200  
+[2019/11/18 21:50:25 203] transport  1604 is_update  false  
+[2019/11/18 21:50:25 203] lgi        105  [trans] [id = lgi_] readable  
+[2019/11/18 21:50:25 206] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.34  
+[2019/11/18 21:50:25 206] transport  981  cached ip is confirmed  
+[2019/11/18 21:50:25 207] transport  1332 [soc] disconnect   
+[2019/11/18 21:50:25 207] transport  991  transport clean  
+[2019/11/18 21:50:25 207] lgi        136  lgi resp!  
+[2019/11/18 21:50:25 207] lgi        143  lgi ok!  
+[2019/11/18 21:50:25 207] lgi        151  unkown  d13853223522  
+[2019/11/18 21:50:25 210] lgi        72   loginid =   1  d13853223522  
+[2019/11/18 21:50:25 211] lgi        75   notify_lgi_result, ret = 0  
+[2019/11/18 21:50:26 957] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:51:16 640 
+============================================================
+[2019/11/18 21:51:16 641] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:51:16 641] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(c337fb8) 
+[2019/11/18 21:51:16 641] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:51:16 641] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:51:16 641] lgi        347  work_dir  .  
+[2019/11/18 21:51:16 641] lgi        403  token:  nil  
+[2019/11/18 21:51:16 641] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:51:16 642] lgi        519  ns_enable=  1  
+[2019/11/18 21:51:16 642] lgi        531  prot_ver=1  
+[2019/11/18 21:51:16 642] lgi        542  prot_type=tcp  
+[2019/11/18 21:51:16 642] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:51:18 010] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:51:26 039 
+============================================================
+[2019/11/18 21:51:26 042] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:51:26 042] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(63e0ee0) 
+[2019/11/18 21:51:26 043] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:51:26 043] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:51:26 043] lgi        347  work_dir  .  
+[2019/11/18 21:51:26 043] lgi        403  token:  nil  
+[2019/11/18 21:51:26 043] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:51:26 045] lgi        519  ns_enable=  1  
+[2019/11/18 21:51:26 045] lgi        531  prot_ver=1  
+[2019/11/18 21:51:26 045] lgi        542  prot_type=tcp  
+[2019/11/18 21:51:26 046] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:51:27 302] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:51:42 746 
+============================================================
+[2019/11/18 21:51:42 747] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:51:42 749] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(5c80d90) 
+[2019/11/18 21:51:42 749] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:51:42 750] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:51:42 750] lgi        347  work_dir  .  
+[2019/11/18 21:51:42 750] lgi        403  token:  nil  
+[2019/11/18 21:51:42 750] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:51:42 750] lgi        519  ns_enable=  1  
+[2019/11/18 21:51:42 750] lgi        531  prot_ver=1  
+[2019/11/18 21:51:42 750] lgi        542  prot_type=tcp  
+[2019/11/18 21:51:42 752] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:51:44 694] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:51:49 470 
+============================================================
+[2019/11/18 21:51:49 471] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:51:49 473] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(5cdb0c0) 
+[2019/11/18 21:51:49 473] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:51:49 473] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:51:49 473] lgi        347  work_dir  .  
+[2019/11/18 21:51:49 473] lgi        403  token:  nil  
+[2019/11/18 21:51:49 473] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:51:49 473] lgi        519  ns_enable=  1  
+[2019/11/18 21:51:49 473] lgi        531  prot_ver=1  
+[2019/11/18 21:51:49 473] lgi        542  prot_type=tcp  
+[2019/11/18 21:51:49 474] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:51:49 621] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:52:04 654 
+============================================================
+[2019/11/18 21:52:04 654] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:52:04 655] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(bcdf550) 
+[2019/11/18 21:52:04 655] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:52:04 655] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:52:04 655] lgi        347  work_dir  .  
+[2019/11/18 21:52:04 655] lgi        403  token:  nil  
+[2019/11/18 21:52:04 655] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:52:04 657] lgi        519  ns_enable=  1  
+[2019/11/18 21:52:04 657] lgi        531  prot_ver=1  
+[2019/11/18 21:52:04 657] lgi        542  prot_type=tcp  
+[2019/11/18 21:52:04 657] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:52:04 846] lgi        598  LGI_MSG_START, caller =  cloud_cisr1P1HHBHj72ldWN3OYaaBgp1vwug81F-  
+[2019/11/18 21:52:04 848] lgi        604  lgistat =   0  
+[2019/11/18 21:52:04 848] lgi        630  lgi_auth_id =  nil  
+[2019/11/18 21:52:04 848] config     91   select default  
+[2019/11/18 21:52:04 848] config     113  use general cloud  
+[2019/11/18 21:52:04 848] transport  645  paramkvsport is   0  
+[2019/11/18 21:52:04 848] transport  657  ns_enable=  1  
+[2019/11/18 21:52:04 848] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2019/11/18 21:52:04 848] transport  665  net.nettype=  unknown  
+[2019/11/18 21:52:04 848] transport  675  url.full=  nil  
+[2019/11/18 21:52:04 848] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2019/11/18 21:52:04 848] transport  907  net type:  unknown  
+[2019/11/18 21:52:04 848] transport  908  net operator:  def  
+[2019/11/18 21:52:04 848] transport  909  use proxy:  false  
+[2019/11/18 21:52:04 848] lgi        277  [session] send lgi request  
+[2019/11/18 21:52:04 848] transport  1105 session.domain=  open.xf-yun.com  
+[2019/11/18 21:52:04 848] transport  1106 url.host=  open.xf-yun.com  
+[2019/11/18 21:52:04 848] transport  1083 NAMESERVER START  
+[2019/11/18 21:52:04 848] transport  1086 name =   ath  
+[2019/11/18 21:52:04 848] ns         634  ntt=  unknown  
+[2019/11/18 21:52:04 848] transport  1089 trans,ns_inprog =  0  
+[2019/11/18 21:52:04 849] ns         582  name server start  
+[2019/11/18 21:52:04 849] ns         588  ns_sub =   ath  
+[2019/11/18 21:52:04 849] ns         596  ns_host =   open.xf-yun.com  
+[2019/11/18 21:52:04 849] ns         475  ns_host=  open.xf-yun.com  
+[2019/11/18 21:52:04 849] ns         555  net_type =  standard  
+[2019/11/18 21:52:04 849] ns         556  cmwapascmnet =  
+[2019/11/18 21:52:04 849] ns         557  uniwapasuninet =  
+[2019/11/18 21:52:04 849] ns         558  ctwapasctnet =  
+[2019/11/18 21:52:04 849] ns         576  host=  hdns.xf-yun.com  
+[2019/11/18 21:52:04 849] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2019/11/18 21:52:04 851] lgi        244  lver:  nil  
+[2019/11/18 21:52:04 851] lgi        249  cfg_ver:  nil  
+[2019/11/18 21:52:04 851] transport  1860 transport_obj.send | in  
+[2019/11/18 21:52:04 851] transport  1866 self.msg_flag_q  table(5caaeb0) 
+[2019/11/18 21:52:04 851] transport  1867 self.msg_q  table(5cab1b0) 
+[2019/11/18 21:52:04 851] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:52:04 851] transport  1800 self.soc  nil  
+[2019/11/18 21:52:04 851] transport  1801 self.connected  false  
+[2019/11/18 21:52:04 851] transport  1802 self.latesterr  0  
+[2019/11/18 21:52:04 851] transport  1873 transport_obj.send | out  
+[2019/11/18 21:52:04 875] network    245  dns resp  0  ns1  
+[2019/11/18 21:52:04 877] ns         422  ns dns ok  42.62.116.18  
+[2019/11/18 21:52:04 877] ns         202  iplist not avail  
+[2019/11/18 21:52:04 878] ns         429  is_voicecloud_ip=  0  
+[2019/11/18 21:52:04 878] ns         436  ip_is_expected=  true  
+[2019/11/18 21:52:04 878] ns         444  ip_is_expected=  true  
+[2019/11/18 21:52:04 878] network    445  gethttpresp2  42.62.116.18  80  ns2  
+[2019/11/18 21:52:04 878] network    465  prot_type  tcp  
+[2019/11/18 21:52:04 882] transport  194  [dns] [1] response 42.62.116.35  
+[2019/11/18 21:52:04 882] transport  202  42  62  116  35  
+[2019/11/18 21:52:04 882] transport  204  ipv =  v4  
+[2019/11/18 21:52:04 882] transport  208  dns ip is v4  
+[2019/11/18 21:52:04 884] transport  130  iplist not avail  
+[2019/11/18 21:52:04 884] transport  247  no iplist now  
+[2019/11/18 21:52:04 884] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.35  
+[2019/11/18 21:52:04 887] transport  291  dns cb start conn  
+[2019/11/18 21:52:04 887] transport  1304 [soc] connect   42.62.116.35  1028  
+[2019/11/18 21:52:04 887] transport  1316 mspsoc.open,prot_type=  tcp  
+[2019/11/18 21:52:04 914] network    350  connected  ns2  
+[2019/11/18 21:52:04 915] network    353  send ok  268  ns2  
+[2019/11/18 21:52:04 944] transport  473  [soc] [1] connected  
+[2019/11/18 21:52:04 944] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:52:04 944] transport  1800 self.soc  udata(bd47ec0) 
+[2019/11/18 21:52:04 946] transport  1801 self.connected  true  
+[2019/11/18 21:52:04 946] transport  1802 self.latesterr  0  
+[2019/11/18 21:52:04 946] transport  1819 transport:try2send,#msg_q=  1  
+[2019/11/18 21:52:04 946] transport  1359 build http request.  
+[2019/11/18 21:52:04 946] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: auth
+X-Par: ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E0%2E42%2E1226&key=08jJT/Z^iRX0g=
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 323
+
+----
+Content-Length:56
+Content-Type:text/appinfo
+Content-Encoding:gzip,encrypt/0.2
+
+ot‹u+N`òÅÄyy|~É}  
+[2019/11/18 21:52:04 947] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/18 21:52:04 950] transport  482  [soc] [1] send ok  508  
+[2019/11/18 21:52:04 950] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:52:04 950] transport  1800 self.soc  udata(bd47ec0) 
+[2019/11/18 21:52:04 950] transport  1801 self.connected  true  
+[2019/11/18 21:52:04 950] transport  1802 self.latesterr  0  
+[2019/11/18 21:52:04 950] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/18 21:52:04 951] network    362  readable  ns2  
+[2019/11/18 21:52:04 951] network    366  HTTP/1.1 200 OK
+Date: Mon, 18 Nov 2019 13:52:05 GMT
+Content-Type: application/json
+Content-Length: 310
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.35","port":80,"idc":"dx"},{"ip":"42.62.42.10","port":1028,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.42.10","port":1028,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2019/11/18 21:52:04 953] ns         253  name server http resp  0  
+[2019/11/18 21:52:04 953] ns         266  ns response OK for this time!  
+[2019/11/18 21:52:04 953] ns         277  from_server=  iflytek/hdns  
+[2019/11/18 21:52:04 953] ns         360  compel :  0  
+[2019/11/18 21:52:04 953] transport  1063 ns_ip =   42.62.116.35  
+[2019/11/18 21:52:04 953] transport  1064 ip_type =  assigned_athopen.xf-yun.com_host  
+[2019/11/18 21:52:04 953] ns         670  no data in ns_q  
+[2019/11/18 21:52:04 953] ns         671  conti_ns,ns_inprog =   1  
+[2019/11/18 21:52:05 009] transport  494  [soc] [1] readable  
+[2019/11/18 21:52:05 009] transport  1767 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2019/11/18 21:52:05 34
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E42%2E1226&uid=d13853223522&key=0bqRIZ/GNokt0KWhszCH5Ybxya7z5TkAtM4hZwDqMV6fe^^GHVr44O7HI9DrGkC9Lc^jyDpJPROzIrufqCHNZO1Cu5^oIc1k7U
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2019/11/18 21:52:05 48
+
+0  
+[2019/11/18 21:52:05 009] transport  1494 a_complete_httpmessage  200  
+[2019/11/18 21:52:05 009] transport  1604 is_update  false  
+[2019/11/18 21:52:05 009] lgi        105  [trans] [id = lgi_] readable  
+[2019/11/18 21:52:05 010] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.35  
+[2019/11/18 21:52:05 012] transport  981  cached ip is confirmed  
+[2019/11/18 21:52:05 012] transport  1332 [soc] disconnect   
+[2019/11/18 21:52:05 012] transport  991  transport clean  
+[2019/11/18 21:52:05 012] lgi        136  lgi resp!  
+[2019/11/18 21:52:05 012] lgi        143  lgi ok!  
+[2019/11/18 21:52:05 012] lgi        151  unkown  d13853223522  
+[2019/11/18 21:52:05 015] lgi        72   loginid =   1  d13853223522  
+[2019/11/18 21:52:05 015] lgi        75   notify_lgi_result, ret = 0  
+[2019/11/18 21:52:05 632] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:53:09 513 
+============================================================
+[2019/11/18 21:53:09 513] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:53:09 515] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(bc24a10) 
+[2019/11/18 21:53:09 515] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:53:09 515] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:53:09 515] lgi        347  work_dir  .  
+[2019/11/18 21:53:09 515] lgi        403  token:  nil  
+[2019/11/18 21:53:09 515] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:53:09 516] lgi        519  ns_enable=  1  
+[2019/11/18 21:53:09 516] lgi        531  prot_ver=1  
+[2019/11/18 21:53:09 516] lgi        542  prot_type=tcp  
+[2019/11/18 21:53:09 516] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:53:10 197] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:54:23 846 
+============================================================
+[2019/11/18 21:54:23 848] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:54:23 848] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(5c5df10) 
+[2019/11/18 21:54:23 848] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:54:23 849] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:54:23 849] lgi        347  work_dir  .  
+[2019/11/18 21:54:23 849] lgi        403  token:  nil  
+[2019/11/18 21:54:23 849] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:54:23 849] lgi        519  ns_enable=  1  
+[2019/11/18 21:54:23 851] lgi        531  prot_ver=1  
+[2019/11/18 21:54:23 851] lgi        542  prot_type=tcp  
+[2019/11/18 21:54:23 851] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:54:23 947] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:54:41 477 
+============================================================
+[2019/11/18 21:54:41 479] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:54:41 479] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(5c2f0f0) 
+[2019/11/18 21:54:41 480] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:54:41 480] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:54:41 480] lgi        347  work_dir  .  
+[2019/11/18 21:54:41 480] lgi        403  token:  nil  
+[2019/11/18 21:54:41 480] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:54:41 480] lgi        519  ns_enable=  1  
+[2019/11/18 21:54:41 480] lgi        531  prot_ver=1  
+[2019/11/18 21:54:41 480] lgi        542  prot_type=tcp  
+[2019/11/18 21:54:41 480] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:54:42 433] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:54:43 131 
+============================================================
+[2019/11/18 21:54:43 131] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:54:43 132] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(5c2fef8) 
+[2019/11/18 21:54:43 132] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:54:43 132] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:54:43 132] lgi        347  work_dir  .  
+[2019/11/18 21:54:43 132] lgi        403  token:  nil  
+[2019/11/18 21:54:43 132] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:54:43 134] lgi        519  ns_enable=  1  
+[2019/11/18 21:54:43 134] lgi        531  prot_ver=1  
+[2019/11/18 21:54:43 134] lgi        542  prot_type=tcp  
+[2019/11/18 21:54:43 134] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:54:43 292] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:54:56 740 
+============================================================
+[2019/11/18 21:54:56 742] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:54:56 743] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(5c45440) 
+[2019/11/18 21:54:56 743] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:54:56 743] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:54:56 743] lgi        347  work_dir  .  
+[2019/11/18 21:54:56 743] lgi        403  token:  nil  
+[2019/11/18 21:54:56 743] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:54:56 744] lgi        519  ns_enable=  1  
+[2019/11/18 21:54:56 744] lgi        531  prot_ver=1  
+[2019/11/18 21:54:56 744] lgi        542  prot_type=tcp  
+[2019/11/18 21:54:56 744] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:54:57 822] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:56:13 739 
+============================================================
+[2019/11/18 21:56:13 740] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:56:13 742] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(5b31828) 
+[2019/11/18 21:56:13 742] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:56:13 742] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:56:13 743] lgi        347  work_dir  .  
+[2019/11/18 21:56:13 743] lgi        403  token:  nil  
+[2019/11/18 21:56:13 743] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:56:13 743] lgi        519  ns_enable=  1  
+[2019/11/18 21:56:13 743] lgi        531  prot_ver=1  
+[2019/11/18 21:56:13 743] lgi        542  prot_type=tcp  
+[2019/11/18 21:56:13 743] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:56:15 670] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:56:18 055 
+============================================================
+[2019/11/18 21:56:18 055] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:56:18 056] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(5b3b598) 
+[2019/11/18 21:56:18 058] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:56:18 058] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:56:18 058] lgi        347  work_dir  .  
+[2019/11/18 21:56:18 058] lgi        403  token:  nil  
+[2019/11/18 21:56:18 058] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:56:18 059] lgi        519  ns_enable=  1  
+[2019/11/18 21:56:18 059] lgi        531  prot_ver=1  
+[2019/11/18 21:56:18 059] lgi        542  prot_type=tcp  
+[2019/11/18 21:56:18 059] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:56:20 006] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:56:22 290 
+============================================================
+[2019/11/18 21:56:22 292] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:56:22 293] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(5aedda0) 
+[2019/11/18 21:56:22 293] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:56:22 293] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:56:22 293] lgi        347  work_dir  .  
+[2019/11/18 21:56:22 293] lgi        403  token:  nil  
+[2019/11/18 21:56:22 293] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:56:22 295] lgi        519  ns_enable=  1  
+[2019/11/18 21:56:22 295] lgi        531  prot_ver=1  
+[2019/11/18 21:56:22 295] lgi        542  prot_type=tcp  
+[2019/11/18 21:56:22 296] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:56:24 194] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:56:26 490 
+============================================================
+[2019/11/18 21:56:26 492] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:56:26 493] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(5aeb0b8) 
+[2019/11/18 21:56:26 493] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:56:26 493] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:56:26 493] lgi        347  work_dir  .  
+[2019/11/18 21:56:26 493] lgi        403  token:  nil  
+[2019/11/18 21:56:26 493] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:56:26 494] lgi        519  ns_enable=  1  
+[2019/11/18 21:56:26 494] lgi        531  prot_ver=1  
+[2019/11/18 21:56:26 494] lgi        542  prot_type=tcp  
+[2019/11/18 21:56:26 496] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:56:28 454] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:56:30 766 
+============================================================
+[2019/11/18 21:56:30 766] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:56:30 767] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(e3f51e8) 
+[2019/11/18 21:56:30 767] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:56:30 767] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:56:30 769] lgi        347  work_dir  .  
+[2019/11/18 21:56:30 769] lgi        403  token:  nil  
+[2019/11/18 21:56:30 769] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:56:30 769] lgi        519  ns_enable=  1  
+[2019/11/18 21:56:30 769] lgi        531  prot_ver=1  
+[2019/11/18 21:56:30 769] lgi        542  prot_type=tcp  
+[2019/11/18 21:56:30 769] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:56:32 687] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:56:35 000 
+============================================================
+[2019/11/18 21:56:35 000] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:56:35 003] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(5b11f60) 
+[2019/11/18 21:56:35 003] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:56:35 003] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:56:35 003] lgi        347  work_dir  .  
+[2019/11/18 21:56:35 003] lgi        403  token:  nil  
+[2019/11/18 21:56:35 003] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:56:35 005] lgi        519  ns_enable=  1  
+[2019/11/18 21:56:35 005] lgi        531  prot_ver=1  
+[2019/11/18 21:56:35 005] lgi        542  prot_type=tcp  
+[2019/11/18 21:56:35 006] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:56:36 930] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:56:39 174 
+============================================================
+[2019/11/18 21:56:39 174] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:56:39 177] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(5af01d8) 
+[2019/11/18 21:56:39 177] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:56:39 177] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:56:39 177] lgi        347  work_dir  .  
+[2019/11/18 21:56:39 177] lgi        403  token:  nil  
+[2019/11/18 21:56:39 177] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:56:39 178] lgi        519  ns_enable=  1  
+[2019/11/18 21:56:39 178] lgi        531  prot_ver=1  
+[2019/11/18 21:56:39 178] lgi        542  prot_type=tcp  
+[2019/11/18 21:56:39 178] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:56:41 086] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 21:56:44 545 
+============================================================
+[2019/11/18 21:56:44 546] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 21:56:44 546] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(5ad7608) 
+[2019/11/18 21:56:44 546] lgi        298  LGI_MSG_INIT  
+[2019/11/18 21:56:44 546] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 21:56:44 546] lgi        347  work_dir  .  
+[2019/11/18 21:56:44 548] lgi        403  token:  nil  
+[2019/11/18 21:56:44 548] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 21:56:44 548] lgi        519  ns_enable=  1  
+[2019/11/18 21:56:44 548] lgi        531  prot_ver=1  
+[2019/11/18 21:56:44 549] lgi        542  prot_type=tcp  
+[2019/11/18 21:56:44 549] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 21:56:44 575] lgi        598  LGI_MSG_START, caller =  cloud_cisr1P1HHBHj72BTWeUzZaaHaJu+AaOowwG  
+[2019/11/18 21:56:44 575] lgi        604  lgistat =   0  
+[2019/11/18 21:56:44 575] lgi        630  lgi_auth_id =  nil  
+[2019/11/18 21:56:44 575] config     91   select default  
+[2019/11/18 21:56:44 575] config     113  use general cloud  
+[2019/11/18 21:56:44 575] transport  645  paramkvsport is   0  
+[2019/11/18 21:56:44 575] transport  657  ns_enable=  1  
+[2019/11/18 21:56:44 575] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2019/11/18 21:56:44 575] transport  665  net.nettype=  unknown  
+[2019/11/18 21:56:44 575] transport  675  url.full=  nil  
+[2019/11/18 21:56:44 575] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2019/11/18 21:56:44 575] transport  907  net type:  unknown  
+[2019/11/18 21:56:44 575] transport  908  net operator:  def  
+[2019/11/18 21:56:44 575] transport  909  use proxy:  false  
+[2019/11/18 21:56:44 575] lgi        277  [session] send lgi request  
+[2019/11/18 21:56:44 575] transport  1105 session.domain=  open.xf-yun.com  
+[2019/11/18 21:56:44 575] transport  1106 url.host=  open.xf-yun.com  
+[2019/11/18 21:56:44 576] transport  1083 NAMESERVER START  
+[2019/11/18 21:56:44 576] transport  1086 name =   ath  
+[2019/11/18 21:56:44 576] ns         634  ntt=  unknown  
+[2019/11/18 21:56:44 576] transport  1089 trans,ns_inprog =  0  
+[2019/11/18 21:56:44 576] ns         582  name server start  
+[2019/11/18 21:56:44 576] ns         588  ns_sub =   ath  
+[2019/11/18 21:56:44 576] ns         596  ns_host =   open.xf-yun.com  
+[2019/11/18 21:56:44 576] ns         475  ns_host=  open.xf-yun.com  
+[2019/11/18 21:56:44 576] ns         555  net_type =  standard  
+[2019/11/18 21:56:44 578] ns         556  cmwapascmnet =  
+[2019/11/18 21:56:44 578] ns         557  uniwapasuninet =  
+[2019/11/18 21:56:44 578] ns         558  ctwapasctnet =  
+[2019/11/18 21:56:44 578] ns         576  host=  hdns.xf-yun.com  
+[2019/11/18 21:56:44 578] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2019/11/18 21:56:44 578] lgi        244  lver:  nil  
+[2019/11/18 21:56:44 578] lgi        249  cfg_ver:  nil  
+[2019/11/18 21:56:44 578] transport  1860 transport_obj.send | in  
+[2019/11/18 21:56:44 578] transport  1866 self.msg_flag_q  table(e5030a0) 
+[2019/11/18 21:56:44 578] transport  1867 self.msg_q  table(e5035b0) 
+[2019/11/18 21:56:44 578] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:56:44 578] transport  1800 self.soc  nil  
+[2019/11/18 21:56:44 578] transport  1801 self.connected  false  
+[2019/11/18 21:56:44 578] transport  1802 self.latesterr  0  
+[2019/11/18 21:56:44 578] transport  1873 transport_obj.send | out  
+[2019/11/18 21:56:44 604] network    245  dns resp  0  ns1  
+[2019/11/18 21:56:44 604] ns         422  ns dns ok  42.62.116.18  
+[2019/11/18 21:56:44 604] ns         202  iplist not avail  
+[2019/11/18 21:56:44 605] ns         429  is_voicecloud_ip=  0  
+[2019/11/18 21:56:44 605] ns         436  ip_is_expected=  true  
+[2019/11/18 21:56:44 605] ns         444  ip_is_expected=  true  
+[2019/11/18 21:56:44 605] network    445  gethttpresp2  42.62.116.18  80  ns2  
+[2019/11/18 21:56:44 605] network    465  prot_type  tcp  
+[2019/11/18 21:56:44 612] transport  194  [dns] [1] response 42.62.116.18  
+[2019/11/18 21:56:44 612] transport  202  42  62  116  18  
+[2019/11/18 21:56:44 612] transport  204  ipv =  v4  
+[2019/11/18 21:56:44 612] transport  208  dns ip is v4  
+[2019/11/18 21:56:44 612] transport  130  iplist not avail  
+[2019/11/18 21:56:44 614] transport  247  no iplist now  
+[2019/11/18 21:56:44 614] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2019/11/18 21:56:44 615] transport  291  dns cb start conn  
+[2019/11/18 21:56:44 615] transport  1304 [soc] connect   42.62.116.18  1028  
+[2019/11/18 21:56:44 615] transport  1316 mspsoc.open,prot_type=  tcp  
+[2019/11/18 21:56:44 641] network    350  connected  ns2  
+[2019/11/18 21:56:44 642] network    353  send ok  268  ns2  
+[2019/11/18 21:56:44 667] transport  473  [soc] [1] connected  
+[2019/11/18 21:56:44 667] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:56:44 667] transport  1800 self.soc  udata(e3c3a30) 
+[2019/11/18 21:56:44 667] transport  1801 self.connected  true  
+[2019/11/18 21:56:44 667] transport  1802 self.latesterr  0  
+[2019/11/18 21:56:44 668] transport  1819 transport:try2send,#msg_q=  1  
+[2019/11/18 21:56:44 668] transport  1359 build http request.  
+[2019/11/18 21:56:44 668] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: auth
+X-Par: ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E0%2E42%2E1226&key=08jJT/Z^iRX0g=
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 323
+
+----
+Content-Length:56
+Content-Type:text/appinfo
+Content-Encoding:gzip,encrypt/0.2
+
+ot‹u+N`òÅÄyy|~É}  
+[2019/11/18 21:56:44 671] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/18 21:56:44 673] transport  482  [soc] [1] send ok  508  
+[2019/11/18 21:56:44 673] transport  1799 transport_obj.try2send | in  
+[2019/11/18 21:56:44 673] transport  1800 self.soc  udata(e3c3a30) 
+[2019/11/18 21:56:44 673] transport  1801 self.connected  true  
+[2019/11/18 21:56:44 674] transport  1802 self.latesterr  0  
+[2019/11/18 21:56:44 674] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/18 21:56:44 677] network    362  readable  ns2  
+[2019/11/18 21:56:44 677] network    366  HTTP/1.1 200 OK
+Date: Mon, 18 Nov 2019 13:56:44 GMT
+Content-Type: application/json
+Content-Length: 308
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.34","port":80,"idc":"dx"},{"ip":"42.62.116.35","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.35","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2019/11/18 21:56:44 694] ns         253  name server http resp  0  
+[2019/11/18 21:56:44 694] ns         266  ns response OK for this time!  
+[2019/11/18 21:56:44 694] ns         277  from_server=  iflytek/hdns  
+[2019/11/18 21:56:44 694] ns         360  compel :  0  
+[2019/11/18 21:56:44 696] transport  1063 ns_ip =   42.62.116.34  
+[2019/11/18 21:56:44 696] transport  1064 ip_type =  assigned_athopen.xf-yun.com_host  
+[2019/11/18 21:56:44 696] ns         670  no data in ns_q  
+[2019/11/18 21:56:44 696] ns         671  conti_ns,ns_inprog =   1  
+[2019/11/18 21:56:44 737] transport  494  [soc] [1] readable  
+[2019/11/18 21:56:44 739] transport  1767 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2019/11/18 21:56:44 761
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E42%2E1226&uid=d13853223522&key=0bgqO4gwlDSoat/019Xnnwjt^tzgjrWaamZ6/OgmVk/yy^^GHVr44O7HI9DrGkC9Lc^jyDpJPROzIrufqCHNZO1Cu5^oIc1k7U
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2019/11/18 21:56:44 776
+
+0  
+[2019/11/18 21:56:44 739] transport  1494 a_complete_httpmessage  200  
+[2019/11/18 21:56:44 739] transport  1604 is_update  false  
+[2019/11/18 21:56:44 739] lgi        105  [trans] [id = lgi_] readable  
+[2019/11/18 21:56:44 740] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2019/11/18 21:56:44 740] transport  981  cached ip is confirmed  
+[2019/11/18 21:56:44 740] transport  1332 [soc] disconnect   
+[2019/11/18 21:56:44 740] transport  991  transport clean  
+[2019/11/18 21:56:44 740] lgi        136  lgi resp!  
+[2019/11/18 21:56:44 740] lgi        143  lgi ok!  
+[2019/11/18 21:56:44 740] lgi        151  unkown  d13853223522  
+[2019/11/18 21:56:44 743] lgi        72   loginid =   1  d13853223522  
+[2019/11/18 21:56:44 743] lgi        75   notify_lgi_result, ret = 0  
+[2019/11/18 21:56:46 262] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:42:09 117 
+============================================================
+[2019/11/18 22:42:09 118] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:42:09 119] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(30e0fc0) 
+[2019/11/18 22:42:09 119] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:42:09 119] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:42:09 119] lgi        347  work_dir  .  
+[2019/11/18 22:42:09 121] lgi        403  token:  nil  
+[2019/11/18 22:42:09 121] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:42:09 121] lgi        519  ns_enable=  1  
+[2019/11/18 22:42:09 121] lgi        531  prot_ver=1  
+[2019/11/18 22:42:09 121] lgi        542  prot_type=tcp  
+[2019/11/18 22:42:09 121] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:42:11 049] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:42:13 329 
+============================================================
+[2019/11/18 22:42:13 331] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:42:13 332] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(30f8d30) 
+[2019/11/18 22:42:13 332] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:42:13 332] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:42:13 332] lgi        347  work_dir  .  
+[2019/11/18 22:42:13 332] lgi        403  token:  nil  
+[2019/11/18 22:42:13 332] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:42:13 332] lgi        519  ns_enable=  1  
+[2019/11/18 22:42:13 332] lgi        531  prot_ver=1  
+[2019/11/18 22:42:13 332] lgi        542  prot_type=tcp  
+[2019/11/18 22:42:13 334] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:42:15 263] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:42:17 568 
+============================================================
+[2019/11/18 22:42:17 569] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:42:17 571] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(4997890) 
+[2019/11/18 22:42:17 571] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:42:17 571] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:42:17 571] lgi        347  work_dir  .  
+[2019/11/18 22:42:17 572] lgi        403  token:  nil  
+[2019/11/18 22:42:17 572] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:42:17 572] lgi        519  ns_enable=  1  
+[2019/11/18 22:42:17 572] lgi        531  prot_ver=1  
+[2019/11/18 22:42:17 572] lgi        542  prot_type=tcp  
+[2019/11/18 22:42:17 572] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:42:19 529] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:42:21 796 
+============================================================
+[2019/11/18 22:42:21 796] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:42:21 799] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(4a29b60) 
+[2019/11/18 22:42:21 799] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:42:21 799] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:42:21 799] lgi        347  work_dir  .  
+[2019/11/18 22:42:21 799] lgi        403  token:  nil  
+[2019/11/18 22:42:21 799] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:42:21 801] lgi        519  ns_enable=  1  
+[2019/11/18 22:42:21 801] lgi        531  prot_ver=1  
+[2019/11/18 22:42:21 801] lgi        542  prot_type=tcp  
+[2019/11/18 22:42:21 801] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:42:23 747] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:42:26 019 
+============================================================
+[2019/11/18 22:42:26 020] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:42:26 023] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(30b0e30) 
+[2019/11/18 22:42:26 023] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:42:26 023] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:42:26 023] lgi        347  work_dir  .  
+[2019/11/18 22:42:26 023] lgi        403  token:  nil  
+[2019/11/18 22:42:26 023] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:42:26 023] lgi        519  ns_enable=  1  
+[2019/11/18 22:42:26 023] lgi        531  prot_ver=1  
+[2019/11/18 22:42:26 025] lgi        542  prot_type=tcp  
+[2019/11/18 22:42:26 025] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:42:28 002] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:42:30 331 
+============================================================
+[2019/11/18 22:42:30 332] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:42:30 334] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(319c230) 
+[2019/11/18 22:42:30 335] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:42:30 335] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:42:30 335] lgi        347  work_dir  .  
+[2019/11/18 22:42:30 335] lgi        403  token:  nil  
+[2019/11/18 22:42:30 335] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:42:30 335] lgi        519  ns_enable=  1  
+[2019/11/18 22:42:30 335] lgi        531  prot_ver=1  
+[2019/11/18 22:42:30 335] lgi        542  prot_type=tcp  
+[2019/11/18 22:42:30 336] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:42:32 273] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:42:34 558 
+============================================================
+[2019/11/18 22:42:34 559] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:42:34 559] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(49d7f68) 
+[2019/11/18 22:42:34 559] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:42:34 559] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:42:34 559] lgi        347  work_dir  .  
+[2019/11/18 22:42:34 559] lgi        403  token:  nil  
+[2019/11/18 22:42:34 561] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:42:34 561] lgi        519  ns_enable=  1  
+[2019/11/18 22:42:34 561] lgi        531  prot_ver=1  
+[2019/11/18 22:42:34 561] lgi        542  prot_type=tcp  
+[2019/11/18 22:42:34 562] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:42:36 490] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:42:38 772 
+============================================================
+[2019/11/18 22:42:38 773] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:42:38 775] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(30b51a8) 
+[2019/11/18 22:42:38 775] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:42:38 775] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:42:38 776] lgi        347  work_dir  .  
+[2019/11/18 22:42:38 776] lgi        403  token:  nil  
+[2019/11/18 22:42:38 776] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:42:38 776] lgi        519  ns_enable=  1  
+[2019/11/18 22:42:38 776] lgi        531  prot_ver=1  
+[2019/11/18 22:42:38 776] lgi        542  prot_type=tcp  
+[2019/11/18 22:42:38 778] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:42:40 716] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:42:42 986 
+============================================================
+[2019/11/18 22:42:42 986] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:42:42 987] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(498e5a8) 
+[2019/11/18 22:42:42 987] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:42:42 989] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:42:42 989] lgi        347  work_dir  .  
+[2019/11/18 22:42:42 989] lgi        403  token:  nil  
+[2019/11/18 22:42:42 989] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:42:42 989] lgi        519  ns_enable=  1  
+[2019/11/18 22:42:42 989] lgi        531  prot_ver=1  
+[2019/11/18 22:42:42 990] lgi        542  prot_type=tcp  
+[2019/11/18 22:42:42 990] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:42:44 890] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:42:47 180 
+============================================================
+[2019/11/18 22:42:47 181] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:42:47 183] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(4a32798) 
+[2019/11/18 22:42:47 184] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:42:47 184] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:42:47 184] lgi        347  work_dir  .  
+[2019/11/18 22:42:47 184] lgi        403  token:  nil  
+[2019/11/18 22:42:47 184] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:42:47 184] lgi        519  ns_enable=  1  
+[2019/11/18 22:42:47 184] lgi        531  prot_ver=1  
+[2019/11/18 22:42:47 186] lgi        542  prot_type=tcp  
+[2019/11/18 22:42:47 186] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:42:49 138] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:42:51 451 
+============================================================
+[2019/11/18 22:42:51 453] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:42:51 453] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(3165018) 
+[2019/11/18 22:42:51 454] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:42:51 454] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:42:51 456] lgi        347  work_dir  .  
+[2019/11/18 22:42:51 456] lgi        403  token:  nil  
+[2019/11/18 22:42:51 456] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:42:51 456] lgi        519  ns_enable=  1  
+[2019/11/18 22:42:51 456] lgi        531  prot_ver=1  
+[2019/11/18 22:42:51 456] lgi        542  prot_type=tcp  
+[2019/11/18 22:42:51 457] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:42:53 384] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:42:55 684 
+============================================================
+[2019/11/18 22:42:55 684] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:42:55 687] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(30cc698) 
+[2019/11/18 22:42:55 687] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:42:55 687] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:42:55 687] lgi        347  work_dir  .  
+[2019/11/18 22:42:55 687] lgi        403  token:  nil  
+[2019/11/18 22:42:55 687] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:42:55 687] lgi        519  ns_enable=  1  
+[2019/11/18 22:42:55 687] lgi        531  prot_ver=1  
+[2019/11/18 22:42:55 687] lgi        542  prot_type=tcp  
+[2019/11/18 22:42:55 688] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:42:57 614] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:43:00 003 
+============================================================
+[2019/11/18 22:43:00 003] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:43:00 006] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(30b9c20) 
+[2019/11/18 22:43:00 006] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:43:00 006] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:43:00 006] lgi        347  work_dir  .  
+[2019/11/18 22:43:00 006] lgi        403  token:  nil  
+[2019/11/18 22:43:00 006] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:43:00 007] lgi        519  ns_enable=  1  
+[2019/11/18 22:43:00 007] lgi        531  prot_ver=1  
+[2019/11/18 22:43:00 007] lgi        542  prot_type=tcp  
+[2019/11/18 22:43:00 009] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:43:01 936] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:43:04 207 
+============================================================
+[2019/11/18 22:43:04 210] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:43:04 211] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(3198010) 
+[2019/11/18 22:43:04 211] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:43:04 211] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:43:04 213] lgi        347  work_dir  .  
+[2019/11/18 22:43:04 213] lgi        403  token:  nil  
+[2019/11/18 22:43:04 213] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:43:04 214] lgi        519  ns_enable=  1  
+[2019/11/18 22:43:04 214] lgi        531  prot_ver=1  
+[2019/11/18 22:43:04 214] lgi        542  prot_type=tcp  
+[2019/11/18 22:43:04 217] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:43:06 118] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:43:08 470 
+============================================================
+[2019/11/18 22:43:08 470] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:43:08 473] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(313b228) 
+[2019/11/18 22:43:08 473] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:43:08 473] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:43:08 473] lgi        347  work_dir  .  
+[2019/11/18 22:43:08 473] lgi        403  token:  nil  
+[2019/11/18 22:43:08 473] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:43:08 473] lgi        519  ns_enable=  1  
+[2019/11/18 22:43:08 473] lgi        531  prot_ver=1  
+[2019/11/18 22:43:08 473] lgi        542  prot_type=tcp  
+[2019/11/18 22:43:08 474] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:43:10 380] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:43:12 851 
+============================================================
+[2019/11/18 22:43:12 852] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:43:12 855] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(265c958) 
+[2019/11/18 22:43:12 855] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:43:12 855] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:43:12 855] lgi        347  work_dir  .  
+[2019/11/18 22:43:12 855] lgi        403  token:  nil  
+[2019/11/18 22:43:12 855] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:43:12 857] lgi        519  ns_enable=  1  
+[2019/11/18 22:43:12 857] lgi        531  prot_ver=1  
+[2019/11/18 22:43:12 857] lgi        542  prot_type=tcp  
+[2019/11/18 22:43:12 857] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:43:14 838] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:43:17 131 
+============================================================
+[2019/11/18 22:43:17 131] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:43:17 132] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(4a320b8) 
+[2019/11/18 22:43:17 132] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:43:17 132] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:43:17 132] lgi        347  work_dir  .  
+[2019/11/18 22:43:17 132] lgi        403  token:  nil  
+[2019/11/18 22:43:17 132] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:43:17 134] lgi        519  ns_enable=  1  
+[2019/11/18 22:43:17 134] lgi        531  prot_ver=1  
+[2019/11/18 22:43:17 134] lgi        542  prot_type=tcp  
+[2019/11/18 22:43:17 134] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:43:19 045] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:43:21 326 
+============================================================
+[2019/11/18 22:43:21 328] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:43:21 329] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(3136320) 
+[2019/11/18 22:43:21 331] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:43:21 331] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:43:21 331] lgi        347  work_dir  .  
+[2019/11/18 22:43:21 331] lgi        403  token:  nil  
+[2019/11/18 22:43:21 331] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:43:21 332] lgi        519  ns_enable=  1  
+[2019/11/18 22:43:21 332] lgi        531  prot_ver=1  
+[2019/11/18 22:43:21 332] lgi        542  prot_type=tcp  
+[2019/11/18 22:43:21 332] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:43:23 250] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:43:25 519 
+============================================================
+[2019/11/18 22:43:25 522] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:43:25 523] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(496bce0) 
+[2019/11/18 22:43:25 523] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:43:25 523] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:43:25 523] lgi        347  work_dir  .  
+[2019/11/18 22:43:25 523] lgi        403  token:  nil  
+[2019/11/18 22:43:25 523] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:43:25 525] lgi        519  ns_enable=  1  
+[2019/11/18 22:43:25 525] lgi        531  prot_ver=1  
+[2019/11/18 22:43:25 525] lgi        542  prot_type=tcp  
+[2019/11/18 22:43:25 526] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:43:27 457] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:43:29 762 
+============================================================
+[2019/11/18 22:43:29 763] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:43:29 765] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(499da70) 
+[2019/11/18 22:43:29 766] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:43:29 766] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:43:29 766] lgi        347  work_dir  .  
+[2019/11/18 22:43:29 766] lgi        403  token:  nil  
+[2019/11/18 22:43:29 766] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:43:29 769] lgi        519  ns_enable=  1  
+[2019/11/18 22:43:29 769] lgi        531  prot_ver=1  
+[2019/11/18 22:43:29 769] lgi        542  prot_type=tcp  
+[2019/11/18 22:43:29 769] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:43:31 697] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:43:34 006 
+============================================================
+[2019/11/18 22:43:34 006] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:43:34 009] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(314df38) 
+[2019/11/18 22:43:34 009] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:43:34 009] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:43:34 009] lgi        347  work_dir  .  
+[2019/11/18 22:43:34 009] lgi        403  token:  nil  
+[2019/11/18 22:43:34 009] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:43:34 009] lgi        519  ns_enable=  1  
+[2019/11/18 22:43:34 009] lgi        531  prot_ver=1  
+[2019/11/18 22:43:34 009] lgi        542  prot_type=tcp  
+[2019/11/18 22:43:34 012] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:43:35 961] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:43:38 249 
+============================================================
+[2019/11/18 22:43:38 250] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:43:38 252] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(316ed50) 
+[2019/11/18 22:43:38 252] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:43:38 253] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:43:38 253] lgi        347  work_dir  .  
+[2019/11/18 22:43:38 253] lgi        403  token:  nil  
+[2019/11/18 22:43:38 253] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:43:38 253] lgi        519  ns_enable=  1  
+[2019/11/18 22:43:38 253] lgi        531  prot_ver=1  
+[2019/11/18 22:43:38 253] lgi        542  prot_type=tcp  
+[2019/11/18 22:43:38 253] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:43:40 174] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:43:42 428 
+============================================================
+[2019/11/18 22:43:42 430] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:43:42 430] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(30ae620) 
+[2019/11/18 22:43:42 431] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:43:42 431] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:43:42 431] lgi        347  work_dir  .  
+[2019/11/18 22:43:42 431] lgi        403  token:  nil  
+[2019/11/18 22:43:42 433] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:43:42 433] lgi        519  ns_enable=  1  
+[2019/11/18 22:43:42 434] lgi        531  prot_ver=1  
+[2019/11/18 22:43:42 434] lgi        542  prot_type=tcp  
+[2019/11/18 22:43:42 434] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:43:44 362] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:43:46 621 
+============================================================
+[2019/11/18 22:43:46 621] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:43:46 624] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(499d2e0) 
+[2019/11/18 22:43:46 624] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:43:46 624] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:43:46 624] lgi        347  work_dir  .  
+[2019/11/18 22:43:46 625] lgi        403  token:  nil  
+[2019/11/18 22:43:46 625] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:43:46 625] lgi        519  ns_enable=  1  
+[2019/11/18 22:43:46 625] lgi        531  prot_ver=1  
+[2019/11/18 22:43:46 625] lgi        542  prot_type=tcp  
+[2019/11/18 22:43:46 625] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:43:48 588] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:43:50 851 
+============================================================
+[2019/11/18 22:43:50 852] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:43:50 854] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(496c450) 
+[2019/11/18 22:43:50 854] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:43:50 855] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:43:50 855] lgi        347  work_dir  .  
+[2019/11/18 22:43:50 855] lgi        403  token:  nil  
+[2019/11/18 22:43:50 855] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:43:50 857] lgi        519  ns_enable=  1  
+[2019/11/18 22:43:50 857] lgi        531  prot_ver=1  
+[2019/11/18 22:43:50 857] lgi        542  prot_type=tcp  
+[2019/11/18 22:43:50 858] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:43:52 805] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:43:55 153 
+============================================================
+[2019/11/18 22:43:55 154] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:43:55 157] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(4a28c18) 
+[2019/11/18 22:43:55 157] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:43:55 157] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:43:55 157] lgi        347  work_dir  .  
+[2019/11/18 22:43:55 157] lgi        403  token:  nil  
+[2019/11/18 22:43:55 157] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:43:55 158] lgi        519  ns_enable=  1  
+[2019/11/18 22:43:55 158] lgi        531  prot_ver=1  
+[2019/11/18 22:43:55 158] lgi        542  prot_type=tcp  
+[2019/11/18 22:43:55 158] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:43:57 078] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:43:59 341 
+============================================================
+[2019/11/18 22:43:59 342] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:43:59 342] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(48dba98) 
+[2019/11/18 22:43:59 342] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:43:59 342] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:43:59 342] lgi        347  work_dir  .  
+[2019/11/18 22:43:59 342] lgi        403  token:  nil  
+[2019/11/18 22:43:59 342] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:43:59 344] lgi        519  ns_enable=  1  
+[2019/11/18 22:43:59 344] lgi        531  prot_ver=1  
+[2019/11/18 22:43:59 344] lgi        542  prot_type=tcp  
+[2019/11/18 22:43:59 345] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:44:01 250] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:44:03 507 
+============================================================
+[2019/11/18 22:44:03 509] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:44:03 509] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(31909d8) 
+[2019/11/18 22:44:03 509] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:44:03 509] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:44:03 509] lgi        347  work_dir  .  
+[2019/11/18 22:44:03 509] lgi        403  token:  nil  
+[2019/11/18 22:44:03 509] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:44:03 510] lgi        519  ns_enable=  1  
+[2019/11/18 22:44:03 510] lgi        531  prot_ver=1  
+[2019/11/18 22:44:03 510] lgi        542  prot_type=tcp  
+[2019/11/18 22:44:03 510] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:44:05 420] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:44:07 726 
+============================================================
+[2019/11/18 22:44:07 726] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:44:07 727] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(313eca8) 
+[2019/11/18 22:44:07 729] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:44:07 729] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:44:07 729] lgi        347  work_dir  .  
+[2019/11/18 22:44:07 729] lgi        403  token:  nil  
+[2019/11/18 22:44:07 729] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:44:07 730] lgi        519  ns_enable=  1  
+[2019/11/18 22:44:07 730] lgi        531  prot_ver=1  
+[2019/11/18 22:44:07 730] lgi        542  prot_type=tcp  
+[2019/11/18 22:44:07 730] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:44:09 660] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:44:11 957 
+============================================================
+[2019/11/18 22:44:11 957] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:44:11 960] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(4a346c0) 
+[2019/11/18 22:44:11 960] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:44:11 960] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:44:11 960] lgi        347  work_dir  .  
+[2019/11/18 22:44:11 960] lgi        403  token:  nil  
+[2019/11/18 22:44:11 960] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:44:11 960] lgi        519  ns_enable=  1  
+[2019/11/18 22:44:11 961] lgi        531  prot_ver=1  
+[2019/11/18 22:44:11 961] lgi        542  prot_type=tcp  
+[2019/11/18 22:44:11 961] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:44:13 926] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:44:16 194 
+============================================================
+[2019/11/18 22:44:16 196] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:44:16 197] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(3161cd0) 
+[2019/11/18 22:44:16 197] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:44:16 197] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:44:16 197] lgi        347  work_dir  .  
+[2019/11/18 22:44:16 197] lgi        403  token:  nil  
+[2019/11/18 22:44:16 197] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:44:16 198] lgi        519  ns_enable=  1  
+[2019/11/18 22:44:16 198] lgi        531  prot_ver=1  
+[2019/11/18 22:44:16 198] lgi        542  prot_type=tcp  
+[2019/11/18 22:44:16 200] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:44:18 119] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:44:20 447 
+============================================================
+[2019/11/18 22:44:20 448] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:44:20 450] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(4a2ed58) 
+[2019/11/18 22:44:20 450] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:44:20 450] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:44:20 450] lgi        347  work_dir  .  
+[2019/11/18 22:44:20 450] lgi        403  token:  nil  
+[2019/11/18 22:44:20 450] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:44:20 450] lgi        519  ns_enable=  1  
+[2019/11/18 22:44:20 450] lgi        531  prot_ver=1  
+[2019/11/18 22:44:20 450] lgi        542  prot_type=tcp  
+[2019/11/18 22:44:20 451] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:44:22 391] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:44:24 719 
+============================================================
+[2019/11/18 22:44:24 721] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:44:24 723] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(31313b8) 
+[2019/11/18 22:44:24 723] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:44:24 723] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:44:24 723] lgi        347  work_dir  .  
+[2019/11/18 22:44:24 723] lgi        403  token:  nil  
+[2019/11/18 22:44:24 723] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:44:24 724] lgi        519  ns_enable=  1  
+[2019/11/18 22:44:24 724] lgi        531  prot_ver=1  
+[2019/11/18 22:44:24 724] lgi        542  prot_type=tcp  
+[2019/11/18 22:44:24 724] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:44:26 648] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:44:28 911 
+============================================================
+[2019/11/18 22:44:28 913] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:44:28 914] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(4986dc8) 
+[2019/11/18 22:44:28 914] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:44:28 914] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:44:28 914] lgi        347  work_dir  .  
+[2019/11/18 22:44:28 915] lgi        403  token:  nil  
+[2019/11/18 22:44:28 915] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:44:28 917] lgi        519  ns_enable=  1  
+[2019/11/18 22:44:28 917] lgi        531  prot_ver=1  
+[2019/11/18 22:44:28 917] lgi        542  prot_type=tcp  
+[2019/11/18 22:44:28 917] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:44:30 842] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:44:33 104 
+============================================================
+[2019/11/18 22:44:33 105] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:44:33 105] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(30c4810) 
+[2019/11/18 22:44:33 105] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:44:33 105] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:44:33 105] lgi        347  work_dir  .  
+[2019/11/18 22:44:33 105] lgi        403  token:  nil  
+[2019/11/18 22:44:33 105] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:44:33 107] lgi        519  ns_enable=  1  
+[2019/11/18 22:44:33 107] lgi        531  prot_ver=1  
+[2019/11/18 22:44:33 107] lgi        542  prot_type=tcp  
+[2019/11/18 22:44:33 107] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:44:35 036] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:44:37 296 
+============================================================
+[2019/11/18 22:44:37 298] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:44:37 299] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(3175910) 
+[2019/11/18 22:44:37 299] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:44:37 299] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:44:37 301] lgi        347  work_dir  .  
+[2019/11/18 22:44:37 301] lgi        403  token:  nil  
+[2019/11/18 22:44:37 301] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:44:37 302] lgi        519  ns_enable=  1  
+[2019/11/18 22:44:37 302] lgi        531  prot_ver=1  
+[2019/11/18 22:44:37 302] lgi        542  prot_type=tcp  
+[2019/11/18 22:44:37 305] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:44:39 216] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:44:41 487 
+============================================================
+[2019/11/18 22:44:41 489] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:44:41 490] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(4a2ae78) 
+[2019/11/18 22:44:41 490] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:44:41 490] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:44:41 490] lgi        347  work_dir  .  
+[2019/11/18 22:44:41 490] lgi        403  token:  nil  
+[2019/11/18 22:44:41 490] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:44:41 490] lgi        519  ns_enable=  1  
+[2019/11/18 22:44:41 490] lgi        531  prot_ver=1  
+[2019/11/18 22:44:41 490] lgi        542  prot_type=tcp  
+[2019/11/18 22:44:41 492] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:44:43 453] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:44:45 723 
+============================================================
+[2019/11/18 22:44:45 724] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:44:45 726] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(31317f8) 
+[2019/11/18 22:44:45 726] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:44:45 726] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:44:45 726] lgi        347  work_dir  .  
+[2019/11/18 22:44:45 726] lgi        403  token:  nil  
+[2019/11/18 22:44:45 726] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:44:45 727] lgi        519  ns_enable=  1  
+[2019/11/18 22:44:45 727] lgi        531  prot_ver=1  
+[2019/11/18 22:44:45 727] lgi        542  prot_type=tcp  
+[2019/11/18 22:44:45 727] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:44:47 657] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:44:49 970 
+============================================================
+[2019/11/18 22:44:49 971] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:44:49 973] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(4959758) 
+[2019/11/18 22:44:49 973] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:44:49 973] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:44:49 973] lgi        347  work_dir  .  
+[2019/11/18 22:44:49 973] lgi        403  token:  nil  
+[2019/11/18 22:44:49 974] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:44:49 974] lgi        519  ns_enable=  1  
+[2019/11/18 22:44:49 974] lgi        531  prot_ver=1  
+[2019/11/18 22:44:49 976] lgi        542  prot_type=tcp  
+[2019/11/18 22:44:49 976] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:44:51 888] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:44:54 164 
+============================================================
+[2019/11/18 22:44:54 165] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:44:54 167] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(49db0d8) 
+[2019/11/18 22:44:54 167] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:44:54 167] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:44:54 168] lgi        347  work_dir  .  
+[2019/11/18 22:44:54 168] lgi        403  token:  nil  
+[2019/11/18 22:44:54 168] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:44:54 170] lgi        519  ns_enable=  1  
+[2019/11/18 22:44:54 170] lgi        531  prot_ver=1  
+[2019/11/18 22:44:54 170] lgi        542  prot_type=tcp  
+[2019/11/18 22:44:54 173] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:44:56 125] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:44:58 388 
+============================================================
+[2019/11/18 22:44:58 388] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:44:58 390] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(4a2aa80) 
+[2019/11/18 22:44:58 390] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:44:58 390] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:44:58 391] lgi        347  work_dir  .  
+[2019/11/18 22:44:58 391] lgi        403  token:  nil  
+[2019/11/18 22:44:58 391] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:44:58 391] lgi        519  ns_enable=  1  
+[2019/11/18 22:44:58 391] lgi        531  prot_ver=1  
+[2019/11/18 22:44:58 391] lgi        542  prot_type=tcp  
+[2019/11/18 22:44:58 391] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:45:00 319] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:45:02 579 
+============================================================
+[2019/11/18 22:45:02 582] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:45:02 584] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(3160d88) 
+[2019/11/18 22:45:02 584] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:45:02 584] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:45:02 585] lgi        347  work_dir  .  
+[2019/11/18 22:45:02 585] lgi        403  token:  nil  
+[2019/11/18 22:45:02 585] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:45:02 585] lgi        519  ns_enable=  1  
+[2019/11/18 22:45:02 585] lgi        531  prot_ver=1  
+[2019/11/18 22:45:02 585] lgi        542  prot_type=tcp  
+[2019/11/18 22:45:02 585] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:45:04 489] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:45:06 755 
+============================================================
+[2019/11/18 22:45:06 756] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:45:06 757] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(499fc80) 
+[2019/11/18 22:45:06 757] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:45:06 759] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:45:06 759] lgi        347  work_dir  .  
+[2019/11/18 22:45:06 759] lgi        403  token:  nil  
+[2019/11/18 22:45:06 759] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:45:06 759] lgi        519  ns_enable=  1  
+[2019/11/18 22:45:06 759] lgi        531  prot_ver=1  
+[2019/11/18 22:45:06 759] lgi        542  prot_type=tcp  
+[2019/11/18 22:45:06 760] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:45:08 677] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:45:10 964 
+============================================================
+[2019/11/18 22:45:10 966] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:45:10 967] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(31914e0) 
+[2019/11/18 22:45:10 967] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:45:10 967] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:45:10 967] lgi        347  work_dir  .  
+[2019/11/18 22:45:10 967] lgi        403  token:  nil  
+[2019/11/18 22:45:10 967] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:45:10 967] lgi        519  ns_enable=  1  
+[2019/11/18 22:45:10 969] lgi        531  prot_ver=1  
+[2019/11/18 22:45:10 969] lgi        542  prot_type=tcp  
+[2019/11/18 22:45:10 969] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:45:12 891] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:45:15 160 
+============================================================
+[2019/11/18 22:45:15 161] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:45:15 161] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(31780e8) 
+[2019/11/18 22:45:15 163] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:45:15 163] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:45:15 163] lgi        347  work_dir  .  
+[2019/11/18 22:45:15 163] lgi        403  token:  nil  
+[2019/11/18 22:45:15 163] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:45:15 164] lgi        519  ns_enable=  1  
+[2019/11/18 22:45:15 164] lgi        531  prot_ver=1  
+[2019/11/18 22:45:15 164] lgi        542  prot_type=tcp  
+[2019/11/18 22:45:15 164] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:45:17 094] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:45:19 341 
+============================================================
+[2019/11/18 22:45:19 342] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:45:19 342] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(30c9e20) 
+[2019/11/18 22:45:19 344] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:45:19 344] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:45:19 345] lgi        347  work_dir  .  
+[2019/11/18 22:45:19 345] lgi        403  token:  nil  
+[2019/11/18 22:45:19 345] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:45:19 345] lgi        519  ns_enable=  1  
+[2019/11/18 22:45:19 345] lgi        531  prot_ver=1  
+[2019/11/18 22:45:19 345] lgi        542  prot_type=tcp  
+[2019/11/18 22:45:19 346] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:45:21 259] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:45:23 615 
+============================================================
+[2019/11/18 22:45:23 617] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:45:23 618] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(30adaa8) 
+[2019/11/18 22:45:23 618] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:45:23 618] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:45:23 618] lgi        347  work_dir  .  
+[2019/11/18 22:45:23 618] lgi        403  token:  nil  
+[2019/11/18 22:45:23 618] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:45:23 619] lgi        519  ns_enable=  1  
+[2019/11/18 22:45:23 619] lgi        531  prot_ver=1  
+[2019/11/18 22:45:23 619] lgi        542  prot_type=tcp  
+[2019/11/18 22:45:23 619] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:45:25 529] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:45:27 940 
+============================================================
+[2019/11/18 22:45:27 940] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:45:27 941] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(313abe8) 
+[2019/11/18 22:45:27 943] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:45:27 943] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:45:27 943] lgi        347  work_dir  .  
+[2019/11/18 22:45:27 943] lgi        403  token:  nil  
+[2019/11/18 22:45:27 943] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:45:27 944] lgi        519  ns_enable=  1  
+[2019/11/18 22:45:27 944] lgi        531  prot_ver=1  
+[2019/11/18 22:45:27 944] lgi        542  prot_type=tcp  
+[2019/11/18 22:45:27 944] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:45:28 648] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 22:45:33 026 
+============================================================
+[2019/11/18 22:45:33 029] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 22:45:33 029] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(30dcfe8) 
+[2019/11/18 22:45:33 029] lgi        298  LGI_MSG_INIT  
+[2019/11/18 22:45:33 029] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 22:45:33 029] lgi        347  work_dir  .  
+[2019/11/18 22:45:33 030] lgi        403  token:  nil  
+[2019/11/18 22:45:33 030] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 22:45:33 032] lgi        519  ns_enable=  1  
+[2019/11/18 22:45:33 032] lgi        531  prot_ver=1  
+[2019/11/18 22:45:33 032] lgi        542  prot_type=tcp  
+[2019/11/18 22:45:33 032] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 22:45:33 180] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 23:05:32 697 
+============================================================
+[2019/11/18 23:05:32 698] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 23:05:32 700] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(6231d78) 
+[2019/11/18 23:05:32 700] lgi        298  LGI_MSG_INIT  
+[2019/11/18 23:05:32 700] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 23:05:32 700] lgi        347  work_dir  .  
+[2019/11/18 23:05:32 700] lgi        403  token:  nil  
+[2019/11/18 23:05:32 700] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 23:05:32 701] lgi        519  ns_enable=  1  
+[2019/11/18 23:05:32 701] lgi        531  prot_ver=1  
+[2019/11/18 23:05:32 701] lgi        542  prot_type=tcp  
+[2019/11/18 23:05:32 701] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 23:05:33 371] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 23:06:06 664 
+============================================================
+[2019/11/18 23:06:06 667] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 23:06:06 667] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(5881b10) 
+[2019/11/18 23:06:06 668] lgi        298  LGI_MSG_INIT  
+[2019/11/18 23:06:06 668] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 23:06:06 668] lgi        347  work_dir  .  
+[2019/11/18 23:06:06 668] lgi        403  token:  nil  
+[2019/11/18 23:06:06 668] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 23:06:06 670] lgi        519  ns_enable=  1  
+[2019/11/18 23:06:06 670] lgi        531  prot_ver=1  
+[2019/11/18 23:06:06 670] lgi        542  prot_type=tcp  
+[2019/11/18 23:06:06 671] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 23:06:08 632] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 23:06:30 821 
+============================================================
+[2019/11/18 23:06:30 822] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 23:06:30 822] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(5887b88) 
+[2019/11/18 23:06:30 822] lgi        298  LGI_MSG_INIT  
+[2019/11/18 23:06:30 822] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 23:06:30 822] lgi        347  work_dir  .  
+[2019/11/18 23:06:30 822] lgi        403  token:  nil  
+[2019/11/18 23:06:30 822] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 23:06:30 823] lgi        519  ns_enable=  1  
+[2019/11/18 23:06:30 823] lgi        531  prot_ver=1  
+[2019/11/18 23:06:30 823] lgi        542  prot_type=tcp  
+[2019/11/18 23:06:30 823] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 23:06:31 062] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/18 23:07:47 088 
+============================================================
+[2019/11/18 23:07:47 088] lgi        684  SYS_MSG_LOAD  
+[2019/11/18 23:07:47 089] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(58653b0) 
+[2019/11/18 23:07:47 091] lgi        298  LGI_MSG_INIT  
+[2019/11/18 23:07:47 091] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/18 23:07:47 091] lgi        347  work_dir  .  
+[2019/11/18 23:07:47 091] lgi        403  token:  nil  
+[2019/11/18 23:07:47 091] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/18 23:07:47 092] lgi        519  ns_enable=  1  
+[2019/11/18 23:07:47 092] lgi        531  prot_ver=1  
+[2019/11/18 23:07:47 092] lgi        542  prot_type=tcp  
+[2019/11/18 23:07:47 092] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/18 23:07:47 336] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/19 15:11:04 257 
+============================================================
+[2019/11/19 15:11:04 259] lgi        684  SYS_MSG_LOAD  
+[2019/11/19 15:11:04 263] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(62510e8) 
+[2019/11/19 15:11:04 263] lgi        298  LGI_MSG_INIT  
+[2019/11/19 15:11:04 263] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/19 15:11:04 263] lgi        347  work_dir  .  
+[2019/11/19 15:11:04 263] lgi        403  token:  nil  
+[2019/11/19 15:11:04 263] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/19 15:11:04 263] lgi        519  ns_enable=  1  
+[2019/11/19 15:11:04 263] lgi        531  prot_ver=1  
+[2019/11/19 15:11:04 263] lgi        542  prot_type=tcp  
+[2019/11/19 15:11:04 265] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/19 15:11:06 246] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/19 15:11:11 315 
+============================================================
+[2019/11/19 15:11:11 316] lgi        684  SYS_MSG_LOAD  
+[2019/11/19 15:11:11 318] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(62b96c8) 
+[2019/11/19 15:11:11 319] lgi        298  LGI_MSG_INIT  
+[2019/11/19 15:11:11 319] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/19 15:11:11 319] lgi        347  work_dir  .  
+[2019/11/19 15:11:11 319] lgi        403  token:  nil  
+[2019/11/19 15:11:11 319] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/19 15:11:11 319] lgi        519  ns_enable=  1  
+[2019/11/19 15:11:11 319] lgi        531  prot_ver=1  
+[2019/11/19 15:11:11 319] lgi        542  prot_type=tcp  
+[2019/11/19 15:11:11 319] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/19 15:11:11 516] lgi        598  LGI_MSG_START, caller =  cloud_cisr1P1HHBHj7gb5uPsRNaadDg1Zpls71AC  
+[2019/11/19 15:11:11 516] lgi        604  lgistat =   0  
+[2019/11/19 15:11:11 516] lgi        630  lgi_auth_id =  nil  
+[2019/11/19 15:11:11 516] config     91   select default  
+[2019/11/19 15:11:11 517] config     113  use general cloud  
+[2019/11/19 15:11:11 517] transport  645  paramkvsport is   0  
+[2019/11/19 15:11:11 517] transport  657  ns_enable=  1  
+[2019/11/19 15:11:11 517] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2019/11/19 15:11:11 517] transport  665  net.nettype=  unknown  
+[2019/11/19 15:11:11 517] transport  675  url.full=  nil  
+[2019/11/19 15:11:11 517] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2019/11/19 15:11:11 519] transport  907  net type:  unknown  
+[2019/11/19 15:11:11 519] transport  908  net operator:  def  
+[2019/11/19 15:11:11 519] transport  909  use proxy:  false  
+[2019/11/19 15:11:11 519] lgi        277  [session] send lgi request  
+[2019/11/19 15:11:11 519] transport  1105 session.domain=  open.xf-yun.com  
+[2019/11/19 15:11:11 519] transport  1106 url.host=  open.xf-yun.com  
+[2019/11/19 15:11:11 519] transport  1083 NAMESERVER START  
+[2019/11/19 15:11:11 519] transport  1086 name =   ath  
+[2019/11/19 15:11:11 519] ns         634  ntt=  unknown  
+[2019/11/19 15:11:11 519] transport  1089 trans,ns_inprog =  0  
+[2019/11/19 15:11:11 519] ns         582  name server start  
+[2019/11/19 15:11:11 519] ns         588  ns_sub =   ath  
+[2019/11/19 15:11:11 519] ns         596  ns_host =   open.xf-yun.com  
+[2019/11/19 15:11:11 519] ns         475  ns_host=  open.xf-yun.com  
+[2019/11/19 15:11:11 519] ns         555  net_type =  standard  
+[2019/11/19 15:11:11 519] ns         556  cmwapascmnet =  
+[2019/11/19 15:11:11 519] ns         557  uniwapasuninet =  
+[2019/11/19 15:11:11 519] ns         558  ctwapasctnet =  
+[2019/11/19 15:11:11 519] ns         576  host=  hdns.xf-yun.com  
+[2019/11/19 15:11:11 520] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2019/11/19 15:11:11 520] lgi        244  lver:  nil  
+[2019/11/19 15:11:11 520] lgi        249  cfg_ver:  nil  
+[2019/11/19 15:11:11 520] transport  1860 transport_obj.send | in  
+[2019/11/19 15:11:11 520] transport  1866 self.msg_flag_q  table(6278060) 
+[2019/11/19 15:11:11 520] transport  1867 self.msg_q  table(6278120) 
+[2019/11/19 15:11:11 520] transport  1799 transport_obj.try2send | in  
+[2019/11/19 15:11:11 520] transport  1800 self.soc  nil  
+[2019/11/19 15:11:11 520] transport  1801 self.connected  false  
+[2019/11/19 15:11:11 522] transport  1802 self.latesterr  0  
+[2019/11/19 15:11:11 522] transport  1873 transport_obj.send | out  
+[2019/11/19 15:11:11 542] network    245  dns resp  0  ns1  
+[2019/11/19 15:11:11 542] ns         422  ns dns ok  42.62.116.34  
+[2019/11/19 15:11:11 542] ns         202  iplist not avail  
+[2019/11/19 15:11:11 545] ns         429  is_voicecloud_ip=  0  
+[2019/11/19 15:11:11 545] ns         436  ip_is_expected=  true  
+[2019/11/19 15:11:11 545] ns         444  ip_is_expected=  true  
+[2019/11/19 15:11:11 545] network    445  gethttpresp2  42.62.116.34  80  ns2  
+[2019/11/19 15:11:11 545] network    465  prot_type  tcp  
+[2019/11/19 15:11:11 551] transport  194  [dns] [1] response 42.62.116.18  
+[2019/11/19 15:11:11 552] transport  202  42  62  116  18  
+[2019/11/19 15:11:11 552] transport  204  ipv =  v4  
+[2019/11/19 15:11:11 552] transport  208  dns ip is v4  
+[2019/11/19 15:11:11 552] transport  130  iplist not avail  
+[2019/11/19 15:11:11 552] transport  247  no iplist now  
+[2019/11/19 15:11:11 552] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2019/11/19 15:11:11 555] transport  291  dns cb start conn  
+[2019/11/19 15:11:11 555] transport  1304 [soc] connect   42.62.116.18  1028  
+[2019/11/19 15:11:11 555] transport  1316 mspsoc.open,prot_type=  tcp  
+[2019/11/19 15:11:11 617] network    350  connected  ns2  
+[2019/11/19 15:11:11 618] network    353  send ok  268  ns2  
+[2019/11/19 15:11:11 653] transport  473  [soc] [1] connected  
+[2019/11/19 15:11:11 653] transport  1799 transport_obj.try2send | in  
+[2019/11/19 15:11:11 653] transport  1800 self.soc  udata(62a4b78) 
+[2019/11/19 15:11:11 653] transport  1801 self.connected  true  
+[2019/11/19 15:11:11 653] transport  1802 self.latesterr  0  
+[2019/11/19 15:11:11 654] transport  1819 transport:try2send,#msg_q=  1  
+[2019/11/19 15:11:11 654] transport  1359 build http request.  
+[2019/11/19 15:11:11 654] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: auth
+X-Par: ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E0%2E42%2E1226&key=08jJT/Z^iRX0g=
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 323
+
+----
+Content-Length:56
+Content-Type:text/appinfo
+Content-Encoding:gzip,encrypt/0.2
+
+ot‹u+N`òÅÄyy|~É}  
+[2019/11/19 15:11:11 654] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/19 15:11:11 655] transport  482  [soc] [1] send ok  508  
+[2019/11/19 15:11:11 655] transport  1799 transport_obj.try2send | in  
+[2019/11/19 15:11:11 655] transport  1800 self.soc  udata(62a4b78) 
+[2019/11/19 15:11:11 655] transport  1801 self.connected  true  
+[2019/11/19 15:11:11 655] transport  1802 self.latesterr  0  
+[2019/11/19 15:11:11 655] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/19 15:11:11 687] network    362  readable  ns2  
+[2019/11/19 15:11:11 687] network    366  HTTP/1.1 200 OK
+Date: Tue, 19 Nov 2019 07:11:09 GMT
+Content-Type: application/json
+Content-Length: 308
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.34","port":80,"idc":"dx"},{"ip":"42.62.116.35","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.35","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2019/11/19 15:11:11 687] ns         253  name server http resp  0  
+[2019/11/19 15:11:11 688] ns         266  ns response OK for this time!  
+[2019/11/19 15:11:11 688] ns         277  from_server=  iflytek/hdns  
+[2019/11/19 15:11:11 688] ns         360  compel :  0  
+[2019/11/19 15:11:11 688] transport  1063 ns_ip =   42.62.116.34  
+[2019/11/19 15:11:11 690] transport  1064 ip_type =  assigned_athopen.xf-yun.com_host  
+[2019/11/19 15:11:11 690] ns         670  no data in ns_q  
+[2019/11/19 15:11:11 690] ns         671  conti_ns,ns_inprog =   1  
+[2019/11/19 15:11:11 724] transport  494  [soc] [1] readable  
+[2019/11/19 15:11:11 724] transport  1767 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2019/11/19 15:11:09 835
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E42%2E1226&uid=d13853223522&key=0bicds9xsnipBKOhZVKKX/r/eeJAPYc0k2d44zGTesin^^^GHVr44O7HI9DrGkC9Lc^jyDpJPROzIrufqCHNZO1Cu5^oIc1k7U
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2019/11/19 15:11:09 850
+
+0  
+[2019/11/19 15:11:11 726] transport  1494 a_complete_httpmessage  200  
+[2019/11/19 15:11:11 726] transport  1604 is_update  false  
+[2019/11/19 15:11:11 726] lgi        105  [trans] [id = lgi_] readable  
+[2019/11/19 15:11:11 726] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2019/11/19 15:11:11 726] transport  972  iplist not avail  
+[2019/11/19 15:11:11 726] transport  1332 [soc] disconnect   
+[2019/11/19 15:11:11 726] transport  991  transport clean  
+[2019/11/19 15:11:11 726] lgi        136  lgi resp!  
+[2019/11/19 15:11:11 726] lgi        143  lgi ok!  
+[2019/11/19 15:11:11 726] lgi        151  unkown  d13853223522  
+[2019/11/19 15:11:11 730] lgi        72   loginid =   1  d13853223522  
+[2019/11/19 15:11:11 730] lgi        75   notify_lgi_result, ret = 0  
+[2019/11/19 15:11:18 543] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/19 15:11:20 158 
+============================================================
+[2019/11/19 15:11:20 160] lgi        684  SYS_MSG_LOAD  
+[2019/11/19 15:11:20 161] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(6266580) 
+[2019/11/19 15:11:20 161] lgi        298  LGI_MSG_INIT  
+[2019/11/19 15:11:20 161] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/19 15:11:20 161] lgi        347  work_dir  .  
+[2019/11/19 15:11:20 161] lgi        403  token:  nil  
+[2019/11/19 15:11:20 163] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/19 15:11:20 163] lgi        519  ns_enable=  1  
+[2019/11/19 15:11:20 164] lgi        531  prot_ver=1  
+[2019/11/19 15:11:20 164] lgi        542  prot_type=tcp  
+[2019/11/19 15:11:20 164] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/19 15:11:20 418] lgi        598  LGI_MSG_START, caller =  cloud_cisr1P1HHBHj7gbNuPKW4aa05jlZwayKaCd  
+[2019/11/19 15:11:20 418] lgi        604  lgistat =   0  
+[2019/11/19 15:11:20 418] lgi        630  lgi_auth_id =  nil  
+[2019/11/19 15:11:20 418] config     91   select default  
+[2019/11/19 15:11:20 418] config     113  use general cloud  
+[2019/11/19 15:11:20 418] transport  645  paramkvsport is   0  
+[2019/11/19 15:11:20 418] transport  657  ns_enable=  1  
+[2019/11/19 15:11:20 418] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2019/11/19 15:11:20 420] transport  665  net.nettype=  unknown  
+[2019/11/19 15:11:20 420] transport  675  url.full=  nil  
+[2019/11/19 15:11:20 420] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2019/11/19 15:11:20 420] transport  907  net type:  unknown  
+[2019/11/19 15:11:20 420] transport  908  net operator:  def  
+[2019/11/19 15:11:20 420] transport  909  use proxy:  false  
+[2019/11/19 15:11:20 420] lgi        277  [session] send lgi request  
+[2019/11/19 15:11:20 420] transport  1105 session.domain=  open.xf-yun.com  
+[2019/11/19 15:11:20 420] transport  1106 url.host=  open.xf-yun.com  
+[2019/11/19 15:11:20 420] transport  1083 NAMESERVER START  
+[2019/11/19 15:11:20 421] transport  1086 name =   ath  
+[2019/11/19 15:11:20 421] ns         634  ntt=  unknown  
+[2019/11/19 15:11:20 421] transport  1089 trans,ns_inprog =  0  
+[2019/11/19 15:11:20 421] ns         582  name server start  
+[2019/11/19 15:11:20 421] ns         588  ns_sub =   ath  
+[2019/11/19 15:11:20 421] ns         596  ns_host =   open.xf-yun.com  
+[2019/11/19 15:11:20 421] ns         475  ns_host=  open.xf-yun.com  
+[2019/11/19 15:11:20 421] ns         555  net_type =  standard  
+[2019/11/19 15:11:20 421] ns         556  cmwapascmnet =  
+[2019/11/19 15:11:20 421] ns         557  uniwapasuninet =  
+[2019/11/19 15:11:20 421] ns         558  ctwapasctnet =  
+[2019/11/19 15:11:20 421] ns         576  host=  hdns.xf-yun.com  
+[2019/11/19 15:11:20 421] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2019/11/19 15:11:20 421] lgi        244  lver:  nil  
+[2019/11/19 15:11:20 421] lgi        249  cfg_ver:  nil  
+[2019/11/19 15:11:20 421] transport  1860 transport_obj.send | in  
+[2019/11/19 15:11:20 421] transport  1866 self.msg_flag_q  table(bc1c528) 
+[2019/11/19 15:11:20 423] transport  1867 self.msg_q  table(bc1c5e8) 
+[2019/11/19 15:11:20 423] transport  1799 transport_obj.try2send | in  
+[2019/11/19 15:11:20 423] transport  1800 self.soc  nil  
+[2019/11/19 15:11:20 423] transport  1801 self.connected  false  
+[2019/11/19 15:11:20 423] transport  1802 self.latesterr  0  
+[2019/11/19 15:11:20 423] transport  1873 transport_obj.send | out  
+[2019/11/19 15:11:20 444] network    245  dns resp  0  ns1  
+[2019/11/19 15:11:20 444] ns         422  ns dns ok  42.62.116.34  
+[2019/11/19 15:11:20 444] ns         202  iplist not avail  
+[2019/11/19 15:11:20 446] ns         429  is_voicecloud_ip=  0  
+[2019/11/19 15:11:20 446] ns         436  ip_is_expected=  true  
+[2019/11/19 15:11:20 446] ns         444  ip_is_expected=  true  
+[2019/11/19 15:11:20 446] network    445  gethttpresp2  42.62.116.34  80  ns2  
+[2019/11/19 15:11:20 446] network    465  prot_type  tcp  
+[2019/11/19 15:11:20 453] transport  194  [dns] [1] response 42.62.116.18  
+[2019/11/19 15:11:20 453] transport  202  42  62  116  18  
+[2019/11/19 15:11:20 453] transport  204  ipv =  v4  
+[2019/11/19 15:11:20 453] transport  208  dns ip is v4  
+[2019/11/19 15:11:20 453] transport  130  iplist not avail  
+[2019/11/19 15:11:20 453] transport  247  no iplist now  
+[2019/11/19 15:11:20 453] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2019/11/19 15:11:20 456] transport  291  dns cb start conn  
+[2019/11/19 15:11:20 456] transport  1304 [soc] connect   42.62.116.18  1028  
+[2019/11/19 15:11:20 457] transport  1316 mspsoc.open,prot_type=  tcp  
+[2019/11/19 15:11:20 500] network    350  connected  ns2  
+[2019/11/19 15:11:20 502] network    353  send ok  268  ns2  
+[2019/11/19 15:11:20 575] transport  473  [soc] [1] connected  
+[2019/11/19 15:11:20 575] transport  1799 transport_obj.try2send | in  
+[2019/11/19 15:11:20 575] transport  1800 self.soc  udata(6246aa0) 
+[2019/11/19 15:11:20 575] transport  1801 self.connected  true  
+[2019/11/19 15:11:20 575] transport  1802 self.latesterr  0  
+[2019/11/19 15:11:20 575] transport  1819 transport:try2send,#msg_q=  1  
+[2019/11/19 15:11:20 575] transport  1359 build http request.  
+[2019/11/19 15:11:20 575] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: auth
+X-Par: ver=MSSP+0%2E9&sub=auth&cmd=lgi&cver=5%2E0%2E42%2E1226&key=08jJT/Z^iRX0g=
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 323
+
+----
+Content-Length:56
+Content-Type:text/appinfo
+Content-Encoding:gzip,encrypt/0.2
+
+ot‹u+N`òÅÄyy|~É}  
+[2019/11/19 15:11:20 578] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/19 15:11:20 579] transport  482  [soc] [1] send ok  508  
+[2019/11/19 15:11:20 579] transport  1799 transport_obj.try2send | in  
+[2019/11/19 15:11:20 579] transport  1800 self.soc  udata(6246aa0) 
+[2019/11/19 15:11:20 581] transport  1801 self.connected  true  
+[2019/11/19 15:11:20 581] transport  1802 self.latesterr  0  
+[2019/11/19 15:11:20 581] transport  1819 transport:try2send,#msg_q=  0  
+[2019/11/19 15:11:20 589] network    362  readable  ns2  
+[2019/11/19 15:11:20 589] network    366  HTTP/1.1 200 OK
+Date: Tue, 19 Nov 2019 07:11:18 GMT
+Content-Type: application/json
+Content-Length: 308
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.18","port":80,"idc":"dx"},{"ip":"42.62.116.34","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.34","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2019/11/19 15:11:20 589] ns         253  name server http resp  0  
+[2019/11/19 15:11:20 589] ns         266  ns response OK for this time!  
+[2019/11/19 15:11:20 589] ns         277  from_server=  iflytek/hdns  
+[2019/11/19 15:11:20 591] ns         360  compel :  0  
+[2019/11/19 15:11:20 592] transport  1063 ns_ip =   42.62.116.18  
+[2019/11/19 15:11:20 592] transport  1064 ip_type =  assigned_athopen.xf-yun.com_host  
+[2019/11/19 15:11:20 592] ns         670  no data in ns_q  
+[2019/11/19 15:11:20 592] ns         671  conti_ns,ns_inprog =   1  
+[2019/11/19 15:11:20 641] transport  494  [soc] [1] readable  
+[2019/11/19 15:11:20 642] transport  1767 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2019/11/19 15:11:18 751
+X-Par: ver=MSSP+0%2E9&ret=0&cver=5%2E0%2E42%2E1226&uid=d13853223522&key=0bDETfN4R2pic9qTYK1L8hHVN/GSw/46sloLF5yTlFIky^^GHVr44O7HI9DrGkC9Lc^jyDpJPROzIrufqCHNZO1Cu5^oIc1k7U
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2019/11/19 15:11:18 766
+
+0  
+[2019/11/19 15:11:20 642] transport  1494 a_complete_httpmessage  200  
+[2019/11/19 15:11:20 642] transport  1604 is_update  false  
+[2019/11/19 15:11:20 642] lgi        105  [trans] [id = lgi_] readable  
+[2019/11/19 15:11:20 642] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.18  
+[2019/11/19 15:11:20 642] transport  972  iplist not avail  
+[2019/11/19 15:11:20 644] transport  1332 [soc] disconnect   
+[2019/11/19 15:11:20 644] transport  991  transport clean  
+[2019/11/19 15:11:20 644] lgi        136  lgi resp!  
+[2019/11/19 15:11:20 644] lgi        143  lgi ok!  
+[2019/11/19 15:11:20 644] lgi        151  unkown  d13853223522  
+[2019/11/19 15:11:20 647] lgi        72   loginid =   1  d13853223522  
+[2019/11/19 15:11:20 647] lgi        75   notify_lgi_result, ret = 0  
+[2019/11/19 15:11:21 789] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/19 15:11:49 427 
+============================================================
+[2019/11/19 15:11:49 427] lgi        684  SYS_MSG_LOAD  
+[2019/11/19 15:11:49 427] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(6274a20) 
+[2019/11/19 15:11:49 427] lgi        298  LGI_MSG_INIT  
+[2019/11/19 15:11:49 427] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/19 15:11:49 427] lgi        347  work_dir  .  
+[2019/11/19 15:11:49 427] lgi        403  token:  nil  
+[2019/11/19 15:11:49 427] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/19 15:11:49 430] lgi        519  ns_enable=  1  
+[2019/11/19 15:11:49 430] lgi        531  prot_ver=1  
+[2019/11/19 15:11:49 430] lgi        542  prot_type=tcp  
+[2019/11/19 15:11:49 430] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/19 15:11:49 648] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/19 15:12:04 221 
+============================================================
+[2019/11/19 15:12:04 223] lgi        684  SYS_MSG_LOAD  
+[2019/11/19 15:12:04 223] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(bb0c7e0) 
+[2019/11/19 15:12:04 223] lgi        298  LGI_MSG_INIT  
+[2019/11/19 15:12:04 224] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/19 15:12:04 224] lgi        347  work_dir  .  
+[2019/11/19 15:12:04 224] lgi        403  token:  nil  
+[2019/11/19 15:12:04 224] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/19 15:12:04 226] lgi        519  ns_enable=  1  
+[2019/11/19 15:12:04 226] lgi        531  prot_ver=1  
+[2019/11/19 15:12:04 226] lgi        542  prot_type=tcp  
+[2019/11/19 15:12:04 226] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/19 15:12:04 400] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/19 18:37:21 697 
+============================================================
+[2019/11/19 18:37:21 698] lgi        684  SYS_MSG_LOAD  
+[2019/11/19 18:37:21 701] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(64b0ea0) 
+[2019/11/19 18:37:21 701] lgi        298  LGI_MSG_INIT  
+[2019/11/19 18:37:21 701] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/19 18:37:21 701] lgi        347  work_dir  .  
+[2019/11/19 18:37:21 701] lgi        403  token:  nil  
+[2019/11/19 18:37:21 701] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/19 18:37:21 703] lgi        519  ns_enable=  1  
+[2019/11/19 18:37:21 703] lgi        531  prot_ver=1  
+[2019/11/19 18:37:21 703] lgi        542  prot_type=tcp  
+[2019/11/19 18:37:21 703] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/19 18:37:23 627] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/19 18:37:25 983 
+============================================================
+[2019/11/19 18:37:25 986] lgi        684  SYS_MSG_LOAD  
+[2019/11/19 18:37:25 986] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(6516b30) 
+[2019/11/19 18:37:25 987] lgi        298  LGI_MSG_INIT  
+[2019/11/19 18:37:25 987] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/19 18:37:25 987] lgi        347  work_dir  .  
+[2019/11/19 18:37:25 987] lgi        403  token:  nil  
+[2019/11/19 18:37:25 987] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/19 18:37:25 989] lgi        519  ns_enable=  1  
+[2019/11/19 18:37:25 989] lgi        531  prot_ver=1  
+[2019/11/19 18:37:25 989] lgi        542  prot_type=tcp  
+[2019/11/19 18:37:25 990] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/19 18:37:27 904] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/19 18:37:30 214 
+============================================================
+[2019/11/19 18:37:30 217] lgi        684  SYS_MSG_LOAD  
+[2019/11/19 18:37:30 217] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(64b5030) 
+[2019/11/19 18:37:30 219] lgi        298  LGI_MSG_INIT  
+[2019/11/19 18:37:30 219] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/19 18:37:30 219] lgi        347  work_dir  .  
+[2019/11/19 18:37:30 219] lgi        403  token:  nil  
+[2019/11/19 18:37:30 219] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/19 18:37:30 220] lgi        519  ns_enable=  1  
+[2019/11/19 18:37:30 220] lgi        531  prot_ver=1  
+[2019/11/19 18:37:30 220] lgi        542  prot_type=tcp  
+[2019/11/19 18:37:30 220] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/19 18:37:32 130] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/19 18:37:34 493 
+============================================================
+[2019/11/19 18:37:34 496] lgi        684  SYS_MSG_LOAD  
+[2019/11/19 18:37:34 496] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(6496918) 
+[2019/11/19 18:37:34 497] lgi        298  LGI_MSG_INIT  
+[2019/11/19 18:37:34 497] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/19 18:37:34 497] lgi        347  work_dir  .  
+[2019/11/19 18:37:34 497] lgi        403  token:  nil  
+[2019/11/19 18:37:34 497] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/19 18:37:34 500] lgi        519  ns_enable=  1  
+[2019/11/19 18:37:34 500] lgi        531  prot_ver=1  
+[2019/11/19 18:37:34 500] lgi        542  prot_type=tcp  
+[2019/11/19 18:37:34 500] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/19 18:37:36 407] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/19 18:37:38 703 
+============================================================
+[2019/11/19 18:37:38 704] lgi        684  SYS_MSG_LOAD  
+[2019/11/19 18:37:38 707] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(64ae4c0) 
+[2019/11/19 18:37:38 707] lgi        298  LGI_MSG_INIT  
+[2019/11/19 18:37:38 707] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/19 18:37:38 707] lgi        347  work_dir  .  
+[2019/11/19 18:37:38 707] lgi        403  token:  nil  
+[2019/11/19 18:37:38 707] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/19 18:37:38 709] lgi        519  ns_enable=  1  
+[2019/11/19 18:37:38 709] lgi        531  prot_ver=1  
+[2019/11/19 18:37:38 709] lgi        542  prot_type=tcp  
+[2019/11/19 18:37:38 709] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/19 18:37:40 618] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/19 18:37:43 180 
+============================================================
+[2019/11/19 18:37:43 181] lgi        684  SYS_MSG_LOAD  
+[2019/11/19 18:37:43 183] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(64940a8) 
+[2019/11/19 18:37:43 184] lgi        298  LGI_MSG_INIT  
+[2019/11/19 18:37:43 184] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/19 18:37:43 184] lgi        347  work_dir  .  
+[2019/11/19 18:37:43 184] lgi        403  token:  nil  
+[2019/11/19 18:37:43 184] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/19 18:37:43 184] lgi        519  ns_enable=  1  
+[2019/11/19 18:37:43 184] lgi        531  prot_ver=1  
+[2019/11/19 18:37:43 184] lgi        542  prot_type=tcp  
+[2019/11/19 18:37:43 186] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/19 18:37:45 098] lgi        697  SYS_MSG_SHUTDOWN  
+============================================================
+Time  2019/11/19 18:37:47 421 
+============================================================
+[2019/11/19 18:37:47 423] lgi        684  SYS_MSG_LOAD  
+[2019/11/19 18:37:47 424] lgi        706  SYS_MSG_REGCB  msp_status_cb  func(6490e10) 
+[2019/11/19 18:37:47 424] lgi        298  LGI_MSG_INIT  
+[2019/11/19 18:37:47 426] lgi        305  lgi  lgi_  268436457  1552301824  
+[2019/11/19 18:37:47 426] lgi        347  work_dir  .  
+[2019/11/19 18:37:47 426] lgi        403  token:  nil  
+[2019/11/19 18:37:47 426] lgi        476  msc cver : 5.0.42.1226  
+[2019/11/19 18:37:47 427] lgi        519  ns_enable=  1  
+[2019/11/19 18:37:47 427] lgi        531  prot_ver=1  
+[2019/11/19 18:37:47 427] lgi        542  prot_type=tcp  
+[2019/11/19 18:37:47 427] lgi        693  SYS_MSG_UNLOAD  go bg!  
+[2019/11/19 18:37:49 309] lgi        697  SYS_MSG_SHUTDOWN  

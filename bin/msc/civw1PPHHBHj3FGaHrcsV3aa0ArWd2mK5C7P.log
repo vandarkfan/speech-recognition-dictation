@@ -1,0 +1,22 @@
+============================================================
+Time  2019/11/09 21:28:34 204 
+============================================================
+[2019/11/09 21:28:34 206] ivw_local  1342 os_type is:  Win32  
+[2019/11/09 21:28:34 210] ivw_local  1351 ivw loaded!  
+[2019/11/09 21:28:34 210] ivw_local  1353 1001.60.1437  
+[2019/11/09 21:28:34 210] ivw_local  1286 SYS_MSG_REGCB  msp_status_cb  func(4ae7790) 
+[2019/11/09 21:28:34 210] ivw_local  1376 last gc at  1573306114  
+[2019/11/09 21:28:34 210] ivw_local  1097 IVW_LOCAL_INIT_CHECK  
+[2019/11/09 21:28:34 210] ivw_local  1103 ivw_res_path:  fo|res/ivw/wakeupresource.jet  
+[2019/11/09 21:28:34 210] ivw_local  732  lgi:  nil  nil  
+[2019/11/09 21:28:34 210] ivw_local  736  fo|res/ivw/wakeupresource.jet  1  
+[2019/11/09 21:28:34 210] ivw_local  527  err  10102  
+[2019/11/09 21:28:34 210] ivw_local  528  res_ver  0  
+[2019/11/09 21:28:34 210] ivw_local  529  res_appid_md5    
+[2019/11/09 21:28:34 210] ivw_local  530  res_id    
+[2019/11/09 21:28:34 210] ivw_local  531    
+[2019/11/09 21:28:34 210] ivw_local  533  rcheck failed!  10102  
+[2019/11/09 21:28:34 210] ivw_local  752  res check failed! ret=  10102  
+[2019/11/09 21:28:34 210] ivw_local  1113 init_check err:  10102  
+[2019/11/09 21:28:34 211] ivw_local  1263 SYS_MSG_UNLOAD  
+[2019/11/09 21:28:34 211] ivw_local  1376 last gc at  1573306114  

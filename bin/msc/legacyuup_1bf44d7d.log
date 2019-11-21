@@ -1,0 +1,131 @@
+============================================================
+Time  2019/10/29 22:16:32 276 
+============================================================
+[2019/10/29 22:16:32 279] legacyuup  324  SYS_MSG_LOAD  
+[2019/10/29 22:16:32 279] legacyuup  237  UUP_MSG_START  
+[2019/10/29 22:16:32 280] legacyuup  239  legacyuup  legacyuup_1bf44d7d  268436457  1552301836  
+[2019/10/29 22:16:32 285] legacyuup  282  User set url is   nil  
+[2019/10/29 22:16:32 285] config     91   select default  
+[2019/10/29 22:16:32 285] config     113  use general cloud  
+[2019/10/29 22:16:32 285] transport  645  paramkvsport is   nil  
+[2019/10/29 22:16:32 285] transport  657  ns_enable=  1  
+[2019/10/29 22:16:32 285] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2019/10/29 22:16:32 285] transport  665  net.nettype=  unknown  
+[2019/10/29 22:16:32 285] transport  675  url.full=  nil  
+[2019/10/29 22:16:32 285] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2019/10/29 22:16:32 285] transport  907  net type:  unknown  
+[2019/10/29 22:16:32 285] transport  908  net operator:  def  
+[2019/10/29 22:16:32 285] transport  909  use proxy:  false  
+[2019/10/29 22:16:32 285] legacyuup  299  not login!  
+[2019/10/29 22:16:32 464] legacyuup  313  UUP_MSG_LGI_RESULT  
+[2019/10/29 22:16:32 464] legacyuup  193  [session] send uup request  
+[2019/10/29 22:16:32 464] transport  1105 session.domain=  open.xf-yun.com  
+[2019/10/29 22:16:32 464] transport  1106 url.host=  open.xf-yun.com  
+[2019/10/29 22:16:32 464] transport  1083 NAMESERVER START  
+[2019/10/29 22:16:32 464] transport  1086 name =   asr  
+[2019/10/29 22:16:32 464] ns         634  ntt=  unknown  
+[2019/10/29 22:16:32 464] transport  1089 trans,ns_inprog =  0  
+[2019/10/29 22:16:32 464] ns         582  name server start  
+[2019/10/29 22:16:32 464] ns         588  ns_sub =   asr  
+[2019/10/29 22:16:32 464] ns         596  ns_host =   open.xf-yun.com  
+[2019/10/29 22:16:32 464] ns         475  ns_host=  open.xf-yun.com  
+[2019/10/29 22:16:32 464] ns         555  net_type =  standard  
+[2019/10/29 22:16:32 466] ns         556  cmwapascmnet =  
+[2019/10/29 22:16:32 466] ns         557  uniwapasuninet =  
+[2019/10/29 22:16:32 466] ns         558  ctwapasctnet =  
+[2019/10/29 22:16:32 466] ns         576  host=  hdns.xf-yun.com  
+[2019/10/29 22:16:32 466] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2019/10/29 22:16:32 466] legacyuup  150  lver:  nil  
+[2019/10/29 22:16:32 466] legacyuup  155  cfg_ver:  nil  
+[2019/10/29 22:16:32 466] transport  1860 transport_obj.send | in  
+[2019/10/29 22:16:32 466] transport  1866 self.msg_flag_q  table(49089b8) 
+[2019/10/29 22:16:32 466] transport  1867 self.msg_q  table(4908958) 
+[2019/10/29 22:16:32 466] transport  1799 transport_obj.try2send | in  
+[2019/10/29 22:16:32 466] transport  1800 self.soc  nil  
+[2019/10/29 22:16:32 467] transport  1801 self.connected  false  
+[2019/10/29 22:16:32 467] transport  1802 self.latesterr  0  
+[2019/10/29 22:16:32 467] transport  1873 transport_obj.send | out  
+[2019/10/29 22:16:32 467] network    245  dns resp  0  ns1  
+[2019/10/29 22:16:32 467] ns         422  ns dns ok  42.62.116.35  
+[2019/10/29 22:16:32 467] ns         202  iplist not avail  
+[2019/10/29 22:16:32 467] ns         429  is_voicecloud_ip=  0  
+[2019/10/29 22:16:32 467] ns         436  ip_is_expected=  true  
+[2019/10/29 22:16:32 467] ns         444  ip_is_expected=  true  
+[2019/10/29 22:16:32 467] network    445  gethttpresp2  42.62.116.35  80  ns2  
+[2019/10/29 22:16:32 467] network    465  prot_type  tcp  
+[2019/10/29 22:16:32 467] transport  194  [dns] [1] response 42.62.116.35  
+[2019/10/29 22:16:32 467] transport  202  42  62  116  35  
+[2019/10/29 22:16:32 470] transport  204  ipv =  v4  
+[2019/10/29 22:16:32 470] transport  208  dns ip is v4  
+[2019/10/29 22:16:32 470] transport  130  iplist not avail  
+[2019/10/29 22:16:32 470] transport  247  no iplist now  
+[2019/10/29 22:16:32 470] network    95   iptoenv ,  ipcache  open.xf-yun.com  def  42.62.116.35  
+[2019/10/29 22:16:32 470] transport  291  dns cb start conn  
+[2019/10/29 22:16:32 470] transport  1304 [soc] connect   42.62.116.35  1028  
+[2019/10/29 22:16:32 470] transport  1316 mspsoc.open,prot_type=  tcp  
+[2019/10/29 22:16:32 493] network    350  connected  ns2  
+[2019/10/29 22:16:32 530] network    353  send ok  268  ns2  
+[2019/10/29 22:16:32 530] transport  473  [soc] [1] connected  
+[2019/10/29 22:16:32 530] transport  1799 transport_obj.try2send | in  
+[2019/10/29 22:16:32 530] transport  1800 self.soc  udata(389b148) 
+[2019/10/29 22:16:32 530] transport  1801 self.connected  true  
+[2019/10/29 22:16:32 530] transport  1802 self.latesterr  0  
+[2019/10/29 22:16:32 530] transport  1819 transport:try2send,#msg_q=  1  
+[2019/10/29 22:16:32 530] transport  1359 build http request.  
+[2019/10/29 22:16:32 532] transport  1476 POST /msp.do HTTP/1.1
+X-Sub: uup
+X-Par: ver=MSSP+0%2E9&sub=uup&cmd=uup&cver=5%2E0%2E42%2E1226&key=0f/qVLNRf9pbs89FRcws5G4EoVeXLNGREeIj65aeYNw0w^HBywnTxKrbLH/SV8VArm4XEIqoLNWEHZ4e6oc7u^TRmhs5T9hkCh2eHuqHO7vk0=
+Host: open.xf-yun.com
+CT: multipart/mixed;boundary=--
+CL: 832
+
+----
+Content-Length:216
+Content-Type:binary/userdata+userword
+Content-Encoding:gzip,encrypt/0.2
+
+R*‹l†…é%næ$|á‹–ËY%3ms%IOTÆ!lu ÀýuaáAý%ìb!Áóý¢=á¢ù‰Ú“„‹Ÿ®ž´‰Pð:?Í'Á¾ãf^æä Â¹„^ŒštO`@-  
+[2019/10/29 22:16:32 532] transport  1819 transport:try2send,#msg_q=  0  
+[2019/10/29 22:16:32 532] transport  482  [soc] [1] send ok  1111  
+[2019/10/29 22:16:32 532] transport  1799 transport_obj.try2send | in  
+[2019/10/29 22:16:32 532] transport  1800 self.soc  udata(389b148) 
+[2019/10/29 22:16:32 532] transport  1801 self.connected  true  
+[2019/10/29 22:16:32 533] transport  1802 self.latesterr  0  
+[2019/10/29 22:16:32 533] transport  1819 transport:try2send,#msg_q=  0  
+[2019/10/29 22:16:32 556] network    362  readable  ns2  
+[2019/10/29 22:16:32 556] network    366  HTTP/1.1 200 OK
+Date: Tue, 29 Oct 2019 14:16:32 GMT
+Content-Type: application/json
+Content-Length: 310
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"asr","ips":[{"ip":"42.62.116.35","port":80,"idc":"dx"},{"ip":"42.62.42.10","port":1028,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"asr","ips":[{"ip":"42.62.42.10","port":1028,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2019/10/29 22:16:32 556] ns         253  name server http resp  0  
+[2019/10/29 22:16:32 556] ns         266  ns response OK for this time!  
+[2019/10/29 22:16:32 556] ns         277  from_server=  iflytek/hdns  
+[2019/10/29 22:16:32 558] ns         360  compel :  0  
+[2019/10/29 22:16:32 558] transport  1063 ns_ip =   42.62.116.35  
+[2019/10/29 22:16:32 558] transport  1064 ip_type =  assigned_asropen.xf-yun.com_host  
+[2019/10/29 22:16:32 559] ns         670  no data in ns_q  
+[2019/10/29 22:16:32 559] ns         671  conti_ns,ns_inprog =   1  
+[2019/10/29 22:16:32 566] transport  494  [soc] [1] readable  
+[2019/10/29 22:16:32 568] transport  1767 HTTP/1.1 200 OK
+Content-Length: 1
+X-Req-Date: 2019/10/29 22:16:32 621
+X-Par: ver=MSSP+0%2E9&ret=10109&cver=5%2E0%2E42%2E1226&key=0fE/U1yMgVn2v3^GJyUewUgzNL5461vnOfrO2jCMQmQjs^HBywnTxKrbLH/SV8VArm4XEIqoLNWEHZ4e6oc7u^TRmhs5T9hkCh2eHuqHO7vk0=
+CT: text/plain
+CL: 1
+Content-Length: 1
+X-Res-Date: 2019/10/29 22:16:32 624
+
+0  
+[2019/10/29 22:16:32 568] transport  1494 a_complete_httpmessage  200  
+[2019/10/29 22:16:32 568] transport  1604 is_update  true  
+[2019/10/29 22:16:32 568] legacyuup  70   [trans] [id = uuplegacyuup_1bf44d7d] readable  
+[2019/10/29 22:16:32 568] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  42.62.116.35  
+[2019/10/29 22:16:32 568] transport  981  cached ip is confirmed  
+[2019/10/29 22:16:32 569] transport  1332 [soc] disconnect   
+[2019/10/29 22:16:32 569] transport  991  transport clean  
+[2019/10/29 22:16:32 569] legacyuup  95   [mssp] bad response : 10109  
+[2019/10/29 22:16:32 569] legacyuup  333  SYS_MSG_UNLOAD  

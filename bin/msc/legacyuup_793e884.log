@@ -1,0 +1,23 @@
+============================================================
+Time  2018/09/19 20:29:28 121 
+============================================================
+[2018/09/19 20:29:28 121] legacyuup  324  SYS_MSG_LOAD  
+[2018/09/19 20:29:28 131] legacyuup  237  UUP_MSG_START  
+[2018/09/19 20:29:28 131] legacyuup  239  legacyuup  legacyuup_793e884  268436457  1537254057  
+[2018/09/19 20:29:28 131] legacyuup  282  User set url is   nil  
+[2018/09/19 20:29:28 131] config     91   select default  
+[2018/09/19 20:29:28 131] config     113  use general cloud  
+[2018/09/19 20:29:28 131] transport  645  paramkvsport is   nil  
+[2018/09/19 20:29:28 131] transport  657  ns_enable=  1  
+[2018/09/19 20:29:28 131] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2018/09/19 20:29:28 131] transport  665  net.nettype=  unknown  
+[2018/09/19 20:29:28 131] transport  675  url.full=  nil  
+[2018/09/19 20:29:28 131] transport  676  urltmp=  nil  
+[2018/09/19 20:29:28 131] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2018/09/19 20:29:28 131] transport  708  url.full=  nil  
+[2018/09/19 20:29:28 131] transport  907  net type:  unknown  
+[2018/09/19 20:29:28 131] transport  908  net operator:  def  
+[2018/09/19 20:29:28 131] transport  909  use proxy:  false  
+[2018/09/19 20:29:28 131] legacyuup  299  not login!  
+[2018/09/19 20:29:28 325] legacyuup  313  UUP_MSG_LGI_RESULT  
+[2018/09/19 20:29:28 326] legacyuup  333  SYS_MSG_UNLOAD  

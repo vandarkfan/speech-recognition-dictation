@@ -1,0 +1,106 @@
+============================================================
+Time  2019/11/15 22:07:49 209 
+============================================================
+[2019/11/15 22:07:49 210] ivw_local  1342 os_type is:  Win32  
+[2019/11/15 22:07:49 213] ivw_local  1351 ivw loaded!  
+[2019/11/15 22:07:49 213] ivw_local  1353 1001.60.1437  
+[2019/11/15 22:07:49 214] ivw_local  1286 SYS_MSG_REGCB  msp_status_cb  func(5419300) 
+[2019/11/15 22:07:49 214] ivw_local  1376 last gc at  1573826869  
+[2019/11/15 22:07:49 214] ivw_local  1097 IVW_LOCAL_INIT_CHECK  
+[2019/11/15 22:07:49 216] ivw_local  1103 ivw_res_path:  fo|res/ivw/wakeupresource.jet  
+[2019/11/15 22:07:49 216] ivw_local  732  lgi:  nil  nil  
+[2019/11/15 22:07:49 216] ivw_local  736  fo|res/ivw/wakeupresource.jet  1  
+[2019/11/15 22:07:49 216] ivw_local  527  err  0  
+[2019/11/15 22:07:49 217] ivw_local  528  res_ver  3  
+[2019/11/15 22:07:49 217] ivw_local  529  res_appid_md5    
+[2019/11/15 22:07:49 217] ivw_local  530  res_id    
+[2019/11/15 22:07:49 217] ivw_local  531  |%fsoniah%=|%fwwnc%=%2cfd7?fb%+%ubtnc%=%aec60eea>a216>d3b?1d>>?37e?b0?05%+%ubts~wb%=%c%z+%nqpphuc%=|%irj%=5+%phuct%=\|%nc%=7+%sbs%=%nfh4krh3vn4dorfi`5%+%soubtohkc%=6327z+|%nc%=6+%sbs%=%nfh4krh3ni`5ni`4%+%soubtohkc%=6327zZz+%ubttn}b%=>>7157+%ubtsnjb%=62047>2253+%ubtqbu%=%q1777%z  
+[2019/11/15 22:07:49 217] ivw_local  539  speech_plus_setting  0  
+[2019/11/15 22:07:49 220] ivw_local  591  xiao3luo4qi3chuang2  0  1450  
+[2019/11/15 22:07:49 220] ivw_local  591  xiao3luo4xing2xing3  1  1450  
+[2019/11/15 22:07:49 220] ivw_local  623  d  
+[2019/11/15 22:07:49 220] ivw_local  652  now expires:  1573826869  nil  
+[2019/11/15 22:07:49 221] auth       82   ivw  app  nil  fbd17bbf9f5619c4e86c99840b8e7872  {"ivw":{"ver":"2","bus":{"expire_date":1576746276,"forbid":"0","nlimit":3},"res":{"md5":"fbd17bbf9f5619c4e86c99840b8e7872","blist":{}}}}  
+[2019/11/15 22:07:49 224] auth       243  nil  
+[2019/11/15 22:07:49 224] auth       252  auth ivw_res_id  fbd17bbf9f5619c4e86c99840b8e7872  
+[2019/11/15 22:07:49 224] auth       266  auth get ivw_res_id  fbd17bbf9f5619c4e86c99840b8e7872  
+[2019/11/15 22:07:49 224] auth       354  nil  
+[2019/11/15 22:07:49 224] ivw_local  479  app auth  
+[2019/11/15 22:07:49 224] auth       621  app  nil  nil  fbd17bbf9f5619c4e86c99840b8e7872  
+[2019/11/15 22:07:49 226] auth       678  ath rquest  {"authorize":[{"ver":"2.1.1","busin":"ivw"}]}  
+[2019/11/15 22:07:49 232] config     91   select default  
+[2019/11/15 22:07:49 232] config     113  use general cloud  
+[2019/11/15 22:07:49 232] transport  645  paramkvsport is   nil  
+[2019/11/15 22:07:49 232] transport  657  ns_enable=  1  
+[2019/11/15 22:07:49 232] transport  659  2017-08--24 is_ns_need_close =   nil  
+[2019/11/15 22:07:49 233] transport  665  net.nettype=  unknown  
+[2019/11/15 22:07:49 233] transport  675  url.full=  nil  
+[2019/11/15 22:07:49 233] transport  680  server_url_host=, server_url_port=, server_url_path=  open.xf-yun.com  nil  /msp.do  
+[2019/11/15 22:07:49 233] transport  907  net type:  unknown  
+[2019/11/15 22:07:49 233] transport  908  net operator:  def  
+[2019/11/15 22:07:49 233] transport  909  use proxy:  false  
+[2019/11/15 22:07:49 233] auth       733  not login!  
+[2019/11/15 22:07:49 233] auth       570  [session] send auth request  
+[2019/11/15 22:07:49 233] transport  1105 session.domain=  open.xf-yun.com  
+[2019/11/15 22:07:49 233] transport  1106 url.host=  open.xf-yun.com  
+[2019/11/15 22:07:49 233] transport  1083 NAMESERVER START  
+[2019/11/15 22:07:49 233] transport  1086 name =   ath  
+[2019/11/15 22:07:49 233] ns         634  ntt=  unknown  
+[2019/11/15 22:07:49 233] transport  1089 trans,ns_inprog =  0  
+[2019/11/15 22:07:49 233] ns         582  name server start  
+[2019/11/15 22:07:49 233] ns         588  ns_sub =   ath  
+[2019/11/15 22:07:49 233] ns         596  ns_host =   open.xf-yun.com  
+[2019/11/15 22:07:49 233] ns         475  ns_host=  open.xf-yun.com  
+[2019/11/15 22:07:49 233] ns         555  net_type =  standard  
+[2019/11/15 22:07:49 233] ns         556  cmwapascmnet =  
+[2019/11/15 22:07:49 233] ns         557  uniwapasuninet =  
+[2019/11/15 22:07:49 233] ns         558  ctwapasctnet =  
+[2019/11/15 22:07:49 233] ns         576  host=  hdns.xf-yun.com  
+[2019/11/15 22:07:49 233] network    263  gethostbyname  hdns.xf-yun.com  ns1  
+[2019/11/15 22:07:49 233] auth       577  0  
+[2019/11/15 22:07:49 233] auth       540  lver:  nil  
+[2019/11/15 22:07:49 233] auth       545  cfg_ver:  nil  
+[2019/11/15 22:07:49 233] transport  1860 transport_obj.send | in  
+[2019/11/15 22:07:49 233] transport  1866 self.msg_flag_q  table(53f60d0) 
+[2019/11/15 22:07:49 233] transport  1867 self.msg_q  table(53f6090) 
+[2019/11/15 22:07:49 233] transport  1799 transport_obj.try2send | in  
+[2019/11/15 22:07:49 233] transport  1800 self.soc  nil  
+[2019/11/15 22:07:49 234] transport  1801 self.connected  false  
+[2019/11/15 22:07:49 234] transport  1802 self.latesterr  0  
+[2019/11/15 22:07:49 234] transport  1873 transport_obj.send | out  
+[2019/11/15 22:07:49 234] ivw_local  703  forbid_ivw =  0  
+[2019/11/15 22:07:49 236] ivw_local  1136 0  res/ivw/wakeupresource.jet  nil  nil  291  0  0  0:1450;1:1450;  0:xiao3luo4qi3chuang2;1:xiao3luo4xing2xing3;  
+[2019/11/15 22:07:49 257] ivw_local  1334 IVW_LOCAL_INSTSID param0 param1  civw1P1HHBHjfFdUCa0bkaaHyKmO-BwSHLk  udata(5160a0b8) 
+[2019/11/15 22:07:49 257] ivw_local  1376 last gc at  1573826869  
+[2019/11/15 22:08:17 482] transport  309  [dns] [1] timeout!   
+[2019/11/15 22:08:17 483] transport  77   dns_failed  
+[2019/11/15 22:08:17 483] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2019/11/15 22:08:17 483] network    90   ipfromenv ,  ipcfg  open.xf-yun.com  def  nil  
+[2019/11/15 22:08:17 483] transport  1304 [soc] connect   42.62.116.18  1028  
+[2019/11/15 22:08:17 483] transport  1316 mspsoc.open,prot_type=  tcp  
+[2019/11/15 22:08:21 888] network    231  dns timeout!  ns1  
+[2019/11/15 22:08:21 888] ns         454  ns dns failed, err =   10114  
+[2019/11/15 22:08:21 888] network    445  gethttpresp2  117.121.48.5  80  ns2  
+[2019/11/15 22:08:21 888] network    465  prot_type  tcp  
+[2019/11/15 22:08:21 911] auth       585  auth timeout!  table: 053F9F20;;;=0===;auth  
+[2019/11/15 22:08:21 911] network    90   ipfromenv ,  ipcache  open.xf-yun.com  def  nil  
+[2019/11/15 22:08:21 911] transport  972  iplist not avail  
+[2019/11/15 22:08:21 911] transport  1332 [soc] disconnect   
+[2019/11/15 22:08:21 937] transport  991  transport clean  
+[2019/11/15 22:08:21 937] network    350  connected  ns2  
+[2019/11/15 22:08:21 973] network    353  send ok  268  ns2  
+[2019/11/15 22:08:22 003] network    362  readable  ns2  
+[2019/11/15 22:08:22 003] network    366  HTTP/1.1 200 OK
+Date: Fri, 15 Nov 2019 14:08:15 GMT
+Content-Type: application/json
+Content-Length: 308
+Connection: keep-alive
+Server: iflytek/hdns
+
+{"dns":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.34","port":80,"idc":"dx"},{"ip":"42.62.116.35","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}],"default":[{"host":"open.xf-yun.com","sip":[{"svc":"ath","ips":[{"ip":"42.62.116.35","port":80,"idc":"dx"}],"ttl":6000,"compel":0}]}]}  
+[2019/11/15 22:08:22 005] ns         253  name server http resp  0  
+[2019/11/15 22:08:22 005] ns         266  ns response OK for this time!  
+[2019/11/15 22:08:22 005] ns         277  from_server=  iflytek/hdns  
+[2019/11/15 22:08:22 012] ns         360  compel :  0  
+[2019/11/15 22:08:22 012] ns         670  no data in ns_q  
+[2019/11/15 22:08:22 012] ns         671  conti_ns,ns_inprog =   1  
